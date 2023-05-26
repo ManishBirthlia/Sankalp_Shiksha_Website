@@ -12,7 +12,7 @@ function Initiative() {
   return (
     <div>
       <div className={Styles.Services} id="services">
-        <h2 data-aos="zoom-in">Services</h2>
+        <h2 data-aos="zoom-in">Initiative</h2>
         <div className={Styles.row}>
           <div class={Styles.column} data-aos="zoom-in">
             <div class={Styles.card}>
@@ -22,6 +22,12 @@ function Initiative() {
                 </i>
               </div>
               <h3>Frontend Developement</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                minima modi repellendus error eos fugit ad ratione eligendi.
+                Reprehenderit cum culpa fuga vero itaque nulla, iure ipsam
+                doloremque inventore impedit.
+              </p>
             </div>
           </div>
           <div class={Styles.column} data-aos="zoom-in">
@@ -32,6 +38,12 @@ function Initiative() {
                 </i>
               </div>
               <h3>Backend Developement</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                minima modi repellendus error eos fugit ad ratione eligendi.
+                Reprehenderit cum culpa fuga vero itaque nulla, iure ipsam
+                doloremque inventore impedit.
+              </p>
             </div>
           </div>
           <div class={Styles.column} data-aos="zoom-in">
@@ -42,6 +54,12 @@ function Initiative() {
                 </i>
               </div>
               <h3>CPP Developement</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                minima modi repellendus error eos fugit ad ratione eligendi.
+                Reprehenderit cum culpa fuga vero itaque nulla, iure ipsam
+                doloremque inventore impedit.
+              </p>
             </div>
           </div>
         </div>
