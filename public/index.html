@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="index.css">
-  <title>Sannkalp</title>
-</head>
-<body>
-  <div id="root"></div>
-  
-  <script src="../src/index.js" type="text/jsx"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Sannkalp</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="../src/index.js" type="text/jsx"></script>
+    <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+
+      // const element = document.querySelector("#primary");
+      // const element2 = document.querySelector("#secandory");
+      // var t = false;
+      // function repeater() {
+      //   if (t) {
+      //     element.style.visibility = "hidden";
+      //     element2.style.visibility = "visible";
+      //     const f = document.querySelector("#sec");
+      //     f.innerHTML = `<img src="help1.jpg" alt="" width="52px" height = "43px">&nbsp;&nbsp;A world where children and youths are equipped with the skills and abilities to reach their full potential.&nbsp;&nbsp;<img src="help2.jpg" alt="" width="52px" height = "43px">`;
+      //     t = false;
+      //   } else {
+      //     element2.style.visibility = "hidden";
+      //     element.style.visibility = "visible";
+      //     const s = document.querySelector("#pri");
+      //     s.innerHTML = `<img src="help1.jpg" alt="" width="52px" height = "43px">&nbsp;&nbsp;To empower children and youths in rural regions through various sustainable initiatives and links corporate competitiveness with social development initiatives.&nbsp;&nbsp;<img src="help2.jpg" alt="" width="52px" height = "43px">`;
+      //     t = true;
+      //   }
+      //   setTimeout(repeater, 9000);
+      // }
+      // repeater();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
