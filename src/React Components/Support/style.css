@@ -13,7 +13,7 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-200%);
+    transform: translateX(-150%);
   }
 }
 
@@ -39,19 +39,24 @@ body {
   left: 0;
   background: linear-gradient(to left, rgba(255, 0, 0, 0), white);
 }
-h1{
+h1 {
   padding: 35px;
-  color: #017ABF;
+  color: #017abf;
 }
-div.supp{
+div.supp {
   background-color: rgb(255, 255, 255);
   text-align: center;
-  margin-top: 5%; bottom: 10;
+  margin-top: 5%;
+  bottom: 10;
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(255, 255, 255)
+  );
 }
 
 .logos:hover .logos-slide {
