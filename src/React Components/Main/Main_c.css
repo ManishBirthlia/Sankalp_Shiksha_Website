@@ -1,6 +1,7 @@
 .position_absolute {
   position: absolute;
   z-index: 1000;
+  top: 14%;
 }
 .carousel-caption p {
   margin: auto;
@@ -68,8 +69,5 @@ p {
   .btn_same {
     font-size: 0.8rem;
     margin: 0.5rem 1rem !important;
-  }
-  .position_absolute {
-    top: 15rem;
   }
 }
