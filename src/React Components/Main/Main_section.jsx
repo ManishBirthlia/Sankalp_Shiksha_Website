@@ -49,13 +49,13 @@ export default function () {
           </p>
           <button
             type="button"
-            className="btn btn-outline-primary btn_same my-5 mx-5 btn-lg py-3 px-5"
+            className="btn btn-outline-primary btn_same my-5 mx-2 btn-lg py-3 px-5"
           >
             Join Us
           </button>
           <button
             type="button"
-            className="btn btn-outline-success btn_same my-5 mx-5 btn-lg py-3 px-5"
+            className="btn btn-outline-success btn_same my-5 mx-2 btn-lg py-3 px-5"
           >
             Donate
           </button>
