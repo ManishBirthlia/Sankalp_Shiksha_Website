@@ -21,7 +21,7 @@ function Initiative() {
                   <DiCss3 />
                 </i>
               </div>
-              <h3>Frontend Developement</h3>
+              <h3>Heading</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
                 minima modi repellendus error eos fugit ad ratione eligendi.
@@ -37,7 +37,7 @@ function Initiative() {
                   <DiNodejs />
                 </i>
               </div>
-              <h3>Backend Developement</h3>
+              <h3>Heading</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
                 minima modi repellendus error eos fugit ad ratione eligendi.
@@ -53,7 +53,7 @@ function Initiative() {
                   <FaCopyright />
                 </i>
               </div>
-              <h3>CPP Developement</h3>
+              <h3>Heading</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
                 minima modi repellendus error eos fugit ad ratione eligendi.
