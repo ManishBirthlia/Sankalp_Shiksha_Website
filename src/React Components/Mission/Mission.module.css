@@ -1,0 +1,46 @@
+.About h1 {
+  text-align: center;
+}
+.aboutsec {
+  margin: 4rem 1rem;
+}
+
+.aboutCont {
+  display: flex;
+}
+.aboutCon {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.content1 {
+  width: 80%;
+  font-size: 1.2rem;
+  background: #191c29;
+  backdrop-filter: blur(1px);
+  padding: 3rem 2rem;
+}
+.img img {
+  width: 80%;
+  border: 4px solid black;
+}
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo img {
+  width: 80%;
+}
+.department {
+  text-align: center;
+}
+@media (max-width: 850px) {
+  .aboutCont {
+    flex-direction: column;
+  }
+}
