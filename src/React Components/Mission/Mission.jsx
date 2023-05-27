@@ -1,40 +1,23 @@
 import React from "react";
-import styles from "./Mission.module.css";
-import team from "./DSC_0089.jpg";
+import "./style.css";
 
-function Mission() {
+export default () => {
   return (
-    <div className={styles.aboutsec}>
-      <div className={styles.aboutCont}>
-        <div className={styles.About}>
-          <h1>Our Mission</h1>
-          <div className={styles.aboutCon}>
-            <div className={styles.content1}>
-              Since 2010, the departmental team of Mechanical Engineering at NIT
-              Hamirpur has been an integral part of the annual technical fest,
-              NIMBUS. With a passion for engineering and problem-solving, our
-            </div>
-            <div className={styles.img}>
-              <img src={team} alt="team" />
-            </div>
-          </div>
+    <div className="Mission_m">
+      <section className="Mission_section" id="primary">
+        <div id="mission"></div>
+        <div id="content">
+          <h1 class="hover-underline-animation">OUR MISSION</h1>
+          <p id="pri"></p>
         </div>
-        <div className={styles.department}>
-          <h1>Our vision</h1>
-          <div className={styles.aboutCon}>
-            <div className={styles.content1}>
-              Since 2010, the departmental team of Mechanical Engineering at NIT
-              Hamirpur has been an integral part of the annual technical fest,
-              NIMBUS. With a passion for engineering and problem-solving, our
-            </div>
-            <div className={styles.img}>
-              <img src={team} alt="team" />
-            </div>
-          </div>
+      </section>
+      <section className="Mission_section" id="secandory">
+        <div id="vision"></div>
+        <div id="content">
+          <h1 class="hover-underline-animation">OUR VISION</h1>
+          <p id="sec"></p>
         </div>
-      </div>
+      </section>
     </div>
   );
-}
-
-export default Mission;
+};

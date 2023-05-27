@@ -1,20 +1,22 @@
 import React from "react";
-import Initiative from "./React Components/Initiative/Initiative";
-import Testimonial from "./React Components/Testimonial/Testimonial";
 import Navbar from "./React Components/Navbar/Navbar";
-import Mainsection from "./React Components/Main/Main_section";
-import Contact from "./React Components/Contact/Contact";
-import Mission from "./React Components/Mission/Mission";
+import Main_section from "./React Components/Main/Main_section";
+import Initiative from "./React Components/Initiative/Initiative";
+// import Mission from "./React Components/Mission/Mission";
+import Media from "./React Components/MediaSec/Media";
+import Footer from "./React Components/Footer/Footer";
+import Supporters from "./React Components/Support/Support";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Mainsection />
+      <Main_section />
       <Initiative />
-      <Mission />
-      <Testimonial />
-      <Contact />
+      <Media />
+      {/* <Mission /> */}
+      <Supporters />
+      <Footer />
     </div>
   );
 }
