@@ -1,18 +1,16 @@
 import React from "react";
-import Navbar from "./React Components/Navbar/Navbar";
-import Main_section from "./React Components/Main/Main_section";
 import Initiative from "./React Components/Initiative/Initiative";
-// import Mission from "./React Components/Mission/Mission";
-import Supporters from "./React Components/Support/Support";
+import Testimonial from "./React Components/Testimonial/Testimonial";
+import Navbar from "./React Components/Navbar/Navbar";
+import Mainsection from "./React Components/Main/Main_section";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Main_section />
+      <Mainsection />
       <Initiative />
-      {/* <Mission /> */}
-      <Supporters />
+      <Testimonial />
     </div>
   );
 }
