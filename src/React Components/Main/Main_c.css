@@ -1,84 +1,81 @@
-.position_absolute{
-    position: absolute;
-    top: 20rem;
-    z-index: 1000;
-    color: aliceblue !important;
-    filter: drop-shadow(2px 4px 6px black);
+.position_absolute {
+  position: absolute;
+  top: 14%;
+  z-index: 1000;
+  color: aliceblue !important;
+  filter: drop-shadow(2px 4px 6px black);
 }
-.main_car div img{
-    filter: brightness(0.5);
+.main_car div img {
+  filter: brightness(0.5);
 }
-.carousel-caption p{
-    margin: auto;
-    width: 60%;
-    font-size: 1.5rem;
+.carousel-caption p {
+  margin: auto;
+  width: 60%;
+  font-size: 1.5rem;
 }
-.carousel-caption h1{
-    font-size: 3rem;
+.carousel-caption h1 {
+  font-size: 3rem;
 }
-.btn_same{
-    width: 20rem;
+.btn_same {
+  width: 20rem;
 }
 .bttn {
-    padding: 0.8rem 3rem;
-    font-size: 1.2rem;
+  padding: 0.8rem 3rem;
+  font-size: 1.2rem;
 }
 .nb {
-    text-align: center;
-    line-height: 1;
-    font-size: 1.5rem;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.5rem;
 }
-.nb p{
+.nb p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+}
+@media screen and (max-width: 1250px) {
+  .carousel-caption p {
+    margin: auto;
+    width: 71%;
     font-size: 1rem;
-    margin-bottom: 0;
+  }
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  .btn_same {
+    width: 11rem;
+  }
+
+  .nb {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .nb p {
+    font-size: 0.8rem;
+  }
+  .mg {
+    margin: auto 1vw;
+    font-size: 0.81rem;
+  }
+  .bttn {
+    padding: 1vw 1vw;
+  }
 }
-p{
-    margin: 0;
-}
-@media screen and (max-width:1024px){
-    .carousel-caption p {
-        margin: auto;
-        width: 71%;
-        font-size:1rem;
-    }
-    .carousel-caption h1 {
-        font-size:2rem;
-    }
-    .btn_same {
-        width: 11rem;
-    }
-    .position_absolute {
-        position: absolute;
-        top: 17rem;
-    }
-    .nb{
-        text-align: center;
-        font-size: 1rem;
-    }
-    .nb p{
-        font-size: 0.8rem;
-    }
-    .mg{
-        margin: auto 1vw;
-        font-size: 0.81rem;
-    }
-    .bttn{
-        padding: 1vw 1vw;
-    }
-}
-@media screen and (max-width:425px){
-    .carousel-caption h1 {
-        font-size:1.7rem;
-        padding: 17px;
-    }
-    .carousel-caption p {
-        width: 92%;
-    }
-    .btn_same {
-        font-size: 0.8rem;
-        margin: 0.5rem 1rem !important;
-    }
-    .position_absolute {
-        top: 15rem;
-    }
+@media screen and (max-width: 425px) {
+  .carousel-caption h1 {
+    font-size: 1.7rem;
+    padding: 17px;
+  }
+  .carousel-caption p {
+    width: 92%;
+  }
+  .btn_same {
+    font-size: 0.8rem;
+    margin: 0.5rem 1rem !important;
+  }
+  .position_absolute {
+    top: 15rem;
+  }
 }
