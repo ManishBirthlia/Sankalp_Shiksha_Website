@@ -2,9 +2,8 @@ import React, { useEffect } from "react";
 import "./Testimonial.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 function Testimonial() {
-  useEffect(() => {
+  useEffect(()=>{
     AOS.init({ duration: 6000 });
   }, []);
   return (

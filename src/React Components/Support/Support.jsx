@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./index.module.css";
-
 export default () => {
   return (
     <div className={s.center}>
