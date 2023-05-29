@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Styles from "./Initiative.module.css";
-import { DiNodejs, DiCss3 } from "react-icons/di";
-import { FaCopyright } from "react-icons/fa";
+import { BiLibrary } from "react-icons/bi";
+import { FaSchool } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +18,7 @@ function Initiative() {
             <div class={Styles.card}>
               <div class={Styles.iconwrap}>
                 <i>
-                  <DiCss3 />
+                  <BiLibrary />
                 </i>
               </div>
               <h3>Free sankalp library</h3>
@@ -38,7 +38,7 @@ function Initiative() {
             <div class={Styles.card}>
               <div class={Styles.iconwrap}>
                 <i>
-                  <DiNodejs />
+                  <FaSchool />
                 </i>
               </div>
               <h3>Sankalp pathshala</h3>

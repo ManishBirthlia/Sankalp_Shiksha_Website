@@ -35,11 +35,11 @@ function Contact() {
               </div>
               <div className={styles.information}>
                 <FaEnvelope className={styles.iconre} />
-                <p>medextrous.festnimbus@nith.ac.in</p>
+                <p>contact@sankapshiksha.com</p>
               </div>
               <div className={styles.information}>
                 <FaPhone className={styles.iconre} />
-                <p>+91 9816468369</p>
+                <p>+91 9554991042</p>
               </div>
             </div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Mission.module.css";
 import team from "./DSC_0089.jpg";
+import team2 from "./DSC_0006.jpg";
 
 function Mission() {
   return (
@@ -10,10 +11,12 @@ function Mission() {
           <h1>Our Mission</h1>
           <div className={styles.aboutCon}>
             <div className={styles.content1}>
-            To empower children and youths in rural regions through various sustainable initiatives and links corporate competitiveness with social development initiatives.
+              To empower children and youths in rural regions through various
+              sustainable initiatives and links corporate competitiveness with
+              social development initiatives.
             </div>
             <div className={styles.img}>
-              <img src={team} alt="team" />
+              <img src={team2} alt="team" />
             </div>
           </div>
         </div>
@@ -21,9 +24,9 @@ function Mission() {
           <h1> Our vision </h1>
           <div className={styles.aboutCon}>
             <div className={styles.content1}>
-              Since 2010, the departmental team of Mechanical Engineering at NIT
-              Hamirpur has been an integral part of the annual technical fest,
-              NIMBUS. With a passion for engineering and problem-solving, our
+              A world where children and youths are equipped with skills and
+              abilities to reach their full potential . Such that they are able
+              to reach their future goals.
             </div>
             <div className={styles.img}>
               <img src={team} alt="team" />

@@ -1,4 +1,5 @@
-.About,.department{
+.About,
+.department {
   margin: 5% auto;
 }
 .About h1 {
@@ -22,14 +23,14 @@
 
 .content1 {
   width: 80%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background: #191c29;
   backdrop-filter: blur(1px);
   padding: 3rem 2rem;
 }
 .img img {
   width: 80%;
-  border: 4px solid black;
+  border: 4px solid #191c29;
 }
 .photo {
   display: flex;
