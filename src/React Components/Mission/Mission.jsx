@@ -10,9 +10,7 @@ function Mission() {
           <h1>Our Mission</h1>
           <div className={styles.aboutCon}>
             <div className={styles.content1}>
-              Since 2010, the departmental team of Mechanical Engineering at NIT
-              Hamirpur has been an integral part of the annual technical fest,
-              NIMBUS. With a passion for engineering and problem-solving, our
+            To empower children and youths in rural regions through various sustainable initiatives and links corporate competitiveness with social development initiatives.
             </div>
             <div className={styles.img}>
               <img src={team} alt="team" />

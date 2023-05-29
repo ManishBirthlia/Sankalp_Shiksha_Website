@@ -3,7 +3,7 @@ import "./Main_c.css";
 
 function Mainsection() {
   return (
-    <div>
+    <div className="Main_top_Effect">
       <div
         id="carouselExampleIndicators"
         className="carousel carousel-dark cDKR slide"
