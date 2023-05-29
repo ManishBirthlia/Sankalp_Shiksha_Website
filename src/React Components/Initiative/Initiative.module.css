@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.Services{
+  margin: 5% auto;
+}
 .Services h2 {
   text-align: center;
   font-size: 3rem;

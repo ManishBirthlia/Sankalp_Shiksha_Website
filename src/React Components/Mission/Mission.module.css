@@ -1,8 +1,11 @@
+.About,.department{
+  margin: 5% auto;
+}
 .About h1 {
   text-align: center;
 }
 .aboutsec {
-  margin: 4rem 1rem;
+  margin: 5% 1rem;
 }
 
 .aboutCont {

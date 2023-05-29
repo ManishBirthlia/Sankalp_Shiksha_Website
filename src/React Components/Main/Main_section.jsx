@@ -3,13 +3,12 @@ import "./Main_c.css";
 
 function Mainsection() {
   return (
-    <div>
+    <div className="Main_top_Effect">
       <div
         id="carouselExampleIndicators"
-        className="carousel carousel-dark slide"
+        className="carousel carousel-dark cDKR slide"
         data-bs-ride="carousel"
         data-bs-interval="5000"
-        data-bs-pause="hover"
         data-bs-touch="true"
       >
         <div className="carousel-indicators">

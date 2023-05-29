@@ -1,6 +1,12 @@
+.Main_top_Effect{
+  filter: drop-shadow(2px 4px 6px black);
+}
+.cDKR .carousel-control-next-icon, .cDKR .carousel-control-prev-icon {
+  filter: drop-shadow(2px 4px 6px black) grayscale(100);
+}
 .position_absolute {
   position: absolute;
-  top: 14%;
+  top: 40%;
   z-index: 1000;
   color: aliceblue !important;
   filter: drop-shadow(2px 4px 6px black);
