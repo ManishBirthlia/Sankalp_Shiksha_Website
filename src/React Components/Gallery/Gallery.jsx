@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Gallery.module.css";
 
-function Navbar() {
+function Gallery() {
   return (
     <div className={s.GalleryStart}>
       <h1>Image Gallery</h1>
@@ -41,4 +41,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Gallery;

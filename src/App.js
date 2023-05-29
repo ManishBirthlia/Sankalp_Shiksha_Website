@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Navbar from "./React Components/Navbar/Navbar";
 import Gallery from "./React Components/Gallery/Gallery";
 import Mainsection from "./React Components/Main/Main_section";
@@ -11,19 +11,23 @@ import Testimonial from "./React Components/Testimonial/Testimonial";
 import Supporters from "./React Components/Support/Support";
 
 function App() {
-  const [value,setValue]=useState(true);
+  const [value, setValue] = useState(true);
   return (
     <div>
-      <Navbar isClick={setValue}/>
-      {value?<div>
-      <Mainsection />
-      <Mission />
-      <Initiative />
-      <Media />
-      <Testimonial />
-      <Supporters />
-      <Contact />
-      </div>:<Gallery />}
+      <Navbar isClick={setValue} />
+      {value ? (
+        <div>
+          <Mainsection />
+          <Mission />
+          <Initiative />
+          <Media />
+          <Testimonial />
+          <Supporters />
+          <Contact />
+        </div>
+      ) : (
+        <Gallery />
+      )}
       <Footer />
     </div>
   );
