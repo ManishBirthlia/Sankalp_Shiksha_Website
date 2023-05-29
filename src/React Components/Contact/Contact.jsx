@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Contact.module.css";
 import {
   FaYoutube,
@@ -9,13 +9,18 @@ import {
   FaPhone,
   FaMap,
 } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init({ duration: 6000 });
+  }, []);
   return (
     <div className={styles.top1}>
       {" "}
-      <h1>|| Contact us ||</h1>
-      <div className={styles.container}>
+      <h1>Contact us</h1>
+      <div data-aos="zoom-in" className={styles.container}>
         <div className={styles.bigcircle}></div>
         <div className={styles.form}>
           <div className={styles.contactinfo}>

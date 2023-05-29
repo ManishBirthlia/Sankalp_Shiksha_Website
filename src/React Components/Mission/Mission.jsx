@@ -20,7 +20,7 @@ function Mission() {
           </div>
         </div>
         <div className={styles.department}>
-          <h1>Our vision</h1>
+          <h1> Our vision </h1>
           <div className={styles.aboutCon}>
             <div className={styles.content1}>
               Since 2010, the departmental team of Mechanical Engineering at NIT
