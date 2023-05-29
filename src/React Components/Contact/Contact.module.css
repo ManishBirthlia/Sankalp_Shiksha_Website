@@ -6,12 +6,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.top1{
-  margin: 10% auto;
+.top1 {
+  margin: auto;
 }
 .top1 h1 {
   text-align: center;
-  margin: 3rem 0 0 0;
+  margin: 3rem 0 2rem 0;
 }
 .iconre {
   margin: 0 0.5rem;
@@ -20,9 +20,9 @@
   color: white;
 }
 .container {
-  /* min-height: 100vh; */
+  min-height: 110vh;
   width: 100%;
-  padding: 2rem;
+
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -288,7 +288,9 @@ textarea.input {
   .form {
     grid-template-columns: 1fr;
   }
-
+  .top1 {
+    margin: 1rem 0;
+  }
   .contactinfo::before {
     bottom: initial;
     top: -72px;

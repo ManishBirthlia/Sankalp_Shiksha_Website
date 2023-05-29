@@ -53,9 +53,14 @@ function Navbar(prop) {
                   </a>
                 </li>
                 <li>
-                  <a onClick={(p)=>{prop.isClick(false);
-                  p.preventDefault();
-                  }} className="dropdown-item" href="">
+                  <a
+                    onClick={(p) => {
+                      prop.isClick(false);
+                      p.preventDefault();
+                    }}
+                    className="dropdown-item"
+                    href="/"
+                  >
                     Gallery
                   </a>
                 </li>

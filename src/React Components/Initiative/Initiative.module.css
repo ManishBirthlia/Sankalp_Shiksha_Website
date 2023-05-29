@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.Services{
+.Services {
   margin: 5% auto;
 }
 .Services h2 {
@@ -27,7 +27,7 @@
 }
 
 .card {
-  width: 100%;
+  width: 10+0%;
   height: 100%;
   padding: 2em 1.5em;
   background: linear-gradient(#191c29 50%, rgb(51, 113, 237) 50%);
