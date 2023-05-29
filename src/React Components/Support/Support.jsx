@@ -1,11 +1,15 @@
-import React from "react";
+import React ,{ useEffect}from "react";
 import s from "./index.module.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Support() {
+  useEffect(()=>{
+    AOS.init({ duration: 6000 });
+  }, []);
   return (
     <div className={s.center}>
-      <h1>Our Supporters</h1>
-      <div class={s.loopSlider}>
+      <h1 data-aos="zoom-in" >Our Supporters</h1>
+      <div data-aos="fade-up" class={s.loopSlider}>
         <div class={s.loopSlideTrack}>
           <div class={s.loopSlide}>
             <img

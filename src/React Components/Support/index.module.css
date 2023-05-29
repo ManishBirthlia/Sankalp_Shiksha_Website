@@ -9,9 +9,10 @@
   } */
   .center{
     text-align: center;
-    margin: 3rem 0rem;
+    margin: 10% auto;
   }
   .center h1{
+    transition: 0.8s ease;
     margin: 2rem 0rem;
   }
   @-webkit-keyframes scroll {
@@ -37,6 +38,7 @@
   }
   .loopSlider {
     background: white;
+    transition: 0.8s ease;
     /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
     height: 100px;
     margin: auto;

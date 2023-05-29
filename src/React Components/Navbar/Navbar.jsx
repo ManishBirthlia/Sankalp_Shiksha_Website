@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar(prop) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark Navbar-main">
       <div className="container-fluid mx-2">
@@ -53,7 +53,9 @@ function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a onClick={(p)=>{prop.isClick(false);
+                  p.preventDefault();
+                  }} className="dropdown-item" href="">
                     Gallery
                   </a>
                 </li>
