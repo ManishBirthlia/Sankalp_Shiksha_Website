@@ -5,8 +5,10 @@ import Mainsection from "./React Components/Main/Main_section";
 import Initiative from "./React Components/Initiative/Initiative";
 import Mission from "./React Components/Mission/Mission";
 import Media from "./React Components/MediaSec/Media";
+import Achievement from "./React Components/Achievements/Achievement";
 import Contact from "./React Components/Contact/Contact";
 import Footer from "./React Components/Footer/Footer";
+import Team from "./React Components/Team/Team";
 import Testimonial from "./React Components/Testimonial/Testimonial";
 import Supporters from "./React Components/Support/Support";
 
@@ -15,6 +17,7 @@ function App() {
   return (
     <div>
       <Navbar isClick={setValue} />
+
       {value ? (
         <div>
           <Mainsection />
@@ -28,6 +31,8 @@ function App() {
       ) : (
         <Gallery />
       )}
+      {/* <Achievement /> */}
+      {/* <Team /> */}
       <Footer />
     </div>
   );
