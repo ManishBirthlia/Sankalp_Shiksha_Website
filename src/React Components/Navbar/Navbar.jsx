@@ -164,7 +164,7 @@ function Navbar(prop) {
               </a>
             </li>
             <li className="nav-item mg">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="#Contact">
                 Contact
               </a>
             </li>
