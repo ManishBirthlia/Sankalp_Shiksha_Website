@@ -45,37 +45,23 @@ function Navbar(prop) {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <li>
                   <a className="dropdown-item" href="/">
-                    Founder's Story
+                    What we do
                   </a>
                 </li>
 
-                <li>
-                  <NavLink className="dropdown-item" to="gallery">
-                    Gallery
-                  </NavLink>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
                 <li>
                   <a className="dropdown-item" href="/">
                     Our Team
                   </a>
                 </li>
+
                 <li>
-                  <a className="dropdown-item" href="/">
-                    What we do
-                  </a>
+                  <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
-                    Our Supporters
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Our Community
-                  </a>
+                  <NavLink className="dropdown-item" to="gallery">
+                    Gallery
+                  </NavLink>
                 </li>
               </ul>
             </li>
