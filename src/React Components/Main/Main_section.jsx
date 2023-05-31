@@ -1,5 +1,9 @@
 import React from "react";
 import "./Main_c.css";
+import img1 from "./4.JPG";
+import img2 from "./11.JPG";
+import img3 from "./2.JPG";
+import img4 from "./12.JPG";
 
 function Mainsection() {
   return (
@@ -53,12 +57,6 @@ function Mainsection() {
             >
               Join Us
             </button>
-            <button
-              type="button"
-              className="btn btn-outline-success btn_same my-5 mx-2 btn-lg py-3 px-5"
-            >
-              Donate
-            </button>
           </div>
           <div
             className="carousel-item active"
@@ -69,7 +67,7 @@ function Mainsection() {
             }}
           >
             <img
-              src="./Main_pics/4.jpg"
+              src={img1}
               style={{ width: "100vw", height: "90vh" }}
               alt=""
               srcset=""
@@ -84,7 +82,7 @@ function Mainsection() {
             }}
           >
             <img
-              src="./Main_pics/11.jpg"
+              src={img2}
               style={{ width: "100vw", height: "90vh" }}
               alt=""
               srcset=""
@@ -99,7 +97,7 @@ function Mainsection() {
             }}
           >
             <img
-              src="./Main_pics/2.jpg"
+              src={img3}
               style={{ width: "100vw", height: "90vh" }}
               alt=""
               srcset=""
@@ -114,7 +112,7 @@ function Mainsection() {
             }}
           >
             <img
-              src="./Main_pics/12.jpg"
+              src={img4}
               style={{ width: "100vw", height: "90vh" }}
               alt=""
               srcset=""

@@ -3,7 +3,7 @@ import s from "./Gallery.module.css";
 
 function Gallery() {
   return (
-    <div className={s.GalleryStart}>
+    <div id="gallery" className={s.GalleryStart}>
       <h1>Image Gallery</h1>
       <hr />
       <div id={s.gallery} class="container-fluid">

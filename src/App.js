@@ -1,35 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./React Components/Navbar/Navbar";
 import Gallery from "./React Components/Gallery/Gallery";
-import Mainsection from "./React Components/Main/Main_section";
-import Initiative from "./React Components/Initiative/Initiative";
-import Mission from "./React Components/Mission/Mission";
-import Media from "./React Components/MediaSec/Media";
-import Contact from "./React Components/Contact/Contact";
-import Footer from "./React Components/Footer/Footer";
-import Testimonial from "./React Components/Testimonial/Testimonial";
-import Supporters from "./React Components/Support/Support";
+import Contact from "./Pages/Contact/Contact";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Home from "./Pages/Home";
 
 function App() {
-  const [value, setValue] = useState(true);
   return (
-    <div>
-      <Navbar isClick={setValue} />
-      {value ? (
-        <div>
-          <Mainsection />
-          <Mission />
-          <Initiative />
-          <Media />
-          <Testimonial />
-          <Supporters />
-          <Contact />
-        </div>
-      ) : (
-        <Gallery />
-      )}
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="gallery" element={<Gallery />}></Route>
+        </Routes>
+      </div>{" "}
+    </BrowserRouter>
   );
 }
 

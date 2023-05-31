@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar(prop) {
   return (
@@ -26,9 +27,9 @@ function Navbar(prop) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item mg">
-              <a className="nav-link active" aria-current="page" href="/">
+              <NavLink className="nav-link" aria-current="page" to="/">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item dropdown mg">
               <a
@@ -53,16 +54,9 @@ function Navbar(prop) {
                   </a>
                 </li>
                 <li>
-                  <a
-                    onClick={(p) => {
-                      prop.isClick(false);
-                      p.preventDefault();
-                    }}
-                    className="dropdown-item"
-                    href="/"
-                  >
+                  <NavLink className="dropdown-item" to="gallery">
                     Gallery
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
@@ -74,12 +68,17 @@ function Navbar(prop) {
                 </li>
                 <li>
                   <a className="dropdown-item" href="/">
+                    What we do
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/">
                     Our Supporters
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/">
-                    Blogs
+                    Our Community
                   </a>
                 </li>
               </ul>
@@ -151,22 +150,18 @@ function Navbar(prop) {
                     Annual Reports
                   </a>
                 </li>
+                <li>
+                  <a className="dropdown-item" href="/">
+                    Blogs
+                  </a>
+                </li>
               </ul>
             </li>
+
             <li className="nav-item mg">
-              <a className="nav-link" href="/">
-                What We Do
-              </a>
-            </li>
-            <li className="nav-item mg">
-              <a className="nav-link" href="/">
-                Our Community
-              </a>
-            </li>
-            <li className="nav-item mg">
-              <a className="nav-link" href="/">
+              <NavLink className="nav-link" to="contact">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
           <button type="button" className="btn btn-warning bttn">

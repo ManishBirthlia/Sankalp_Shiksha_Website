@@ -17,7 +17,7 @@ function Contact() {
     AOS.init({ duration: 6000 });
   }, []);
   return (
-    <div className={styles.top1}>
+    <div id="contact" className={styles.top1}>
       {" "}
       <h1>Contact us</h1>
       <div data-aos="zoom-in" className={styles.container}>
