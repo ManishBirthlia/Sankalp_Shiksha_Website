@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./style.module.css";
-import Model from "../Model";
 
 function Footer() {
   return (
@@ -10,8 +9,16 @@ function Footer() {
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
             <p class="text-justify">
-            "SANKALP" is the 'determination' of Being-able to help and serve the Society as per needed, according to the situation to reduce their sufferings and miseries. This is the "SANKALP" to create happy faces all around the area where our team works and progressively to large scale areas, where we could outreach our Generous Help. The NGO - "SANKALP" is now Budding along with the Bunch of young, energetic youth from various domains - MBBS students, Engineers, Innovative Entreprenuers, cyclists, travellers, etc. But have a common motto. <br/>“Alone we can do so little but together, we can do so much”
-
+              "SANKALP" is the 'determination' of Being-able to help and serve
+              the Society as per needed, according to the situation to reduce
+              their sufferings and miseries. This is the "SANKALP" to create
+              happy faces all around the area where our team works and
+              progressively to large scale areas, where we could outreach our
+              Generous Help. The NGO - "SANKALP" is now Budding along with the
+              Bunch of young, energetic youth from various domains - MBBS
+              students, Engineers, Innovative Entreprenuers, cyclists,
+              travellers, etc. But have a common motto. <br />
+              “Alone we can do so little but together, we can do so much”
             </p>
           </div>
           <div class="col-xs-6 col-md-3">
@@ -53,7 +60,12 @@ function Footer() {
                 <a href="/">Privacy Policy</a>
               </li>
               <li>
-                <a dir="_blank" href="https://www.google.com/maps/place/National+Institute+of+Technology,+Hamirpur/@31.7084336,76.5224817,17z/data=!3m1!4b1!4m6!3m5!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.7084291!4d76.5273526!16zL20vMGNybnJ4?entry=ttu">Sitemap</a>
+                <a
+                  dir="_blank"
+                  href="https://www.google.com/maps/place/National+Institute+of+Technology,+Hamirpur/@31.7084336,76.5224817,17z/data=!3m1!4b1!4m6!3m5!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.7084291!4d76.5273526!16zL20vMGNybnJ4?entry=ttu"
+                >
+                  Sitemap
+                </a>
               </li>
             </ul>
           </div>

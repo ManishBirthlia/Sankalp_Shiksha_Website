@@ -7,7 +7,6 @@ import {
   FaInstagram,
   FaEnvelope,
   FaPhone,
-  FaMap,
 } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,7 +20,6 @@ function Contact() {
       {" "}
       <h1>Contact us</h1>
       <div data-aos="zoom-in" className={styles.container}>
-        <div className={styles.bigcircle}></div>
         <div className={styles.form}>
           <div className={styles.contactinfo}>
             <h3 className={styles.title}>Let's get in touch</h3>
@@ -29,13 +27,8 @@ function Contact() {
 
             <div className={styles.info}>
               <div className={styles.information}>
-                <FaMap className={styles.iconre} />
-
-                <p>NIT Hamirpur, Himachal Pradesh(177202)</p>
-              </div>
-              <div className={styles.information}>
                 <FaEnvelope className={styles.iconre} />
-                <p>contact@sankapshiksha.com</p>
+                <p>contact@sankalpshiksha.com</p>
               </div>
               <div className={styles.information}>
                 <FaPhone className={styles.iconre} />

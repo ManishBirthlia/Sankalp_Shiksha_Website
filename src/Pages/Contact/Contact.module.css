@@ -20,7 +20,6 @@
   color: white;
 }
 .container {
-  min-height: 110vh;
   width: 100%;
 
   display: flex;
@@ -228,17 +227,6 @@ textarea.input {
   opacity: 0.3;
 }
 
-.bigcircle {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  border: 80px solid #307cb7;
-  border-radius: 50%;
-  left: 20%;
-  transform: translate(-40%, 38%);
-  z-index: -4;
-}
-
 .inputcontainer span {
   position: absolute;
   top: 0;
@@ -302,13 +290,6 @@ textarea.input {
     top: -12px;
     left: initial;
     right: 70px;
-  }
-
-  .bigcircle {
-    bottom: 75%;
-    transform: scale(0.9) translate(-40%, 30%);
-    right: 50%;
-    display: none;
   }
 
   .text {

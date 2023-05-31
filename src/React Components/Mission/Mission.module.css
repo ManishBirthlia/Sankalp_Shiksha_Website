@@ -21,17 +21,23 @@
   color: white;
 }
 
-.content1 {
+.aboutCon div {
   width: 80%;
   font-size: 1.1rem;
   background: #191c29;
+  border-radius: 1rem;
   backdrop-filter: blur(1px);
-  padding: 3rem 2rem;
+  padding: 1.5rem 2rem;
+}
+.department .content1 {
+  padding: 2.3rem 2rem;
 }
 .img img {
-  width: 80%;
+  width: 100%;
+  border-radius: 50%;
   border: 4px solid #191c29;
 }
+
 .photo {
   display: flex;
   align-items: center;

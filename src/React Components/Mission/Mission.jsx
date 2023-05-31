@@ -11,7 +11,7 @@ function Mission() {
           <h1>Our Mission</h1>
           <div className={styles.aboutCon}>
             <div className={styles.content1}>
-              To empower children and youths in rural regions through various
+              To empower children and youth in rural regions through various
               sustainable initiatives and links corporate competitiveness with
               social development initiatives.
             </div>
@@ -24,9 +24,8 @@ function Mission() {
           <h1> Our vision </h1>
           <div className={styles.aboutCon}>
             <div className={styles.content1}>
-              A world where children and youths are equipped with skills and
-              abilities to reach their full potential . Such that they are able
-              to reach their future goals.
+              A world where children and youth are equipped with skills and
+              abilities to reach their full potential .
             </div>
             <div className={styles.img}>
               <img src={team} alt="team" />

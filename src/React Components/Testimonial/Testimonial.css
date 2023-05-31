@@ -4,13 +4,11 @@ figure.snip1390 {
   font-family: "Roboto", Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 10px;
-  min-width: 250px;
-  max-width: 470px;
-  width: 100%;
+  margin: 1.5rem;
+  min-width: 31vw;
   color: #000000;
   text-align: center;
-  font-size: 16px;
+
   background-color: #191c29;
   padding: 30px;
   transition: 0.8s ease;
@@ -20,9 +18,9 @@ figure.snip1390 {
 .testimonial {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  overflow-x: scroll;
 }
-.testsec{
+.testsec {
   margin: 10% auto;
 }
 .testsec h1 {
@@ -84,8 +82,34 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #a6a57a;
 }
-@media (max-width: 1040px) {
-  .testimonial {
-    flex-wrap: wrap;
+@media (max-width: 1790px) {
+  figure.snip1390 {
+    min-width: 30.5vw;
+  }
+}
+@media (max-width: 1440px) {
+  figure.snip1390 {
+    min-width: 30vw;
+  }
+}
+@media (max-width: 1290px) {
+  figure.snip1390 {
+    min-width: 29.4vw;
+  }
+}
+@media (max-width: 1000px) {
+  figure.snip1390 {
+    min-width: 43vw;
+  }
+}
+@media (max-width: 730px) {
+  figure.snip1390 {
+    min-width: 42vw;
+  }
+}
+@media (max-width: 640px) {
+  figure.snip1390 {
+    min-width: 92vw;
+    margin: 1rem;
   }
 }
