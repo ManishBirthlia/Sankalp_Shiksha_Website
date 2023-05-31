@@ -7,7 +7,7 @@ import img4 from "./12.JPG";
 
 function Mainsection() {
   return (
-    <div className="Main_top_Effect">
+    <div id="Main_section" className="Main_top_Effect">
       <div
         id="carouselExampleIndicators"
         className="carousel carousel-dark cDKR slide"
