@@ -48,11 +48,7 @@ function Navbar(prop) {
                     Founder's Story
                   </a>
                 </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Mission Vision & Values
-                  </a>
-                </li>
+
                 <li>
                   <NavLink className="dropdown-item" to="gallery">
                     Gallery

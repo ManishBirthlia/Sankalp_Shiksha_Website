@@ -106,6 +106,18 @@ figure.snip1390 .profile {
   figure.snip1390 {
     min-width: 42vw;
   }
+  figure.snip1390 blockquote:before {
+    font-size: 63px;
+    opacity: 0.25;
+    font-style: normal;
+    top: -11px;
+    left: 10px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 0.8rem;
+    padding: 32px 10px 30px 30px;
+    margin-top: 10px;
+  }
 }
 @media (max-width: 640px) {
   figure.snip1390 {

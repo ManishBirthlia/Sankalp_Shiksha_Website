@@ -4,8 +4,6 @@ import s from "./Media.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const m = document.querySelector(".modal-body");
-
 function Navbar() {
   useEffect(() => {
     AOS.init({ duration: 6000 });
@@ -31,58 +29,6 @@ function Navbar() {
         clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <img
-          data-aos="zoom-in"
-          alt=""
-          // onClick={(prop)=>{
-          //   m.innerHTML("<img alt="" src='"+prop.src+"' class='modal-img'>");
-          //   // document.querySelector("#myModal").modal();
-          // }}
-          src="./Main_pics/1.jpg"
-          class="img-responsive"
-        />
-        <img
-          data-aos="zoom-in"
-          alt=""
-          src="./Main_pics/16.jpg"
-          class="img-responsive"
-        />
-        <img
-          data-aos="zoom-in"
-          alt=""
-          src="./Main_pics/15.jpg"
-          class="img-responsive"
-        />
-        <img
-          data-aos="zoom-in"
-          alt=""
-          src="./Main_pics/14.jpg"
-          class="img-responsive"
-        />
-        <img
-          data-aos="zoom-in"
-          alt=""
-          src="./Main_pics/13.jpg"
-          class="img-responsive"
-        />
-        <img
-          data-aos="zoom-in"
-          alt=""
-          src="./Main_pics/12.jpg"
-          class="img-responsive"
-        />
-        <img
-          data-aos="zoom-in-up"
-          alt=""
-          src="./Main_pics/11.jpg"
-          class="card img-responsive"
-        />
-        <img
-          data-aos="fade-up"
-          alt=""
-          src="./Main_pics/10.jpg"
-          class="img-responsive"
-        />
       </div>
 
       <div id="myModal" class="modal fade" role="dialog">

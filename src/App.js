@@ -4,6 +4,7 @@ import Gallery from "./React Components/Gallery/Gallery";
 import Contact from "./Pages/Contact/Contact";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home";
+import Footer from "./React Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="gallery" element={<Gallery />}></Route>
         </Routes>
+        <Footer />
       </div>{" "}
     </BrowserRouter>
   );

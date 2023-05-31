@@ -10,10 +10,12 @@
 .center {
   text-align: center;
   margin: 5rem 0rem;
+  overflow: hidden;
 }
 .center h1 {
-  margin: 2rem 0rem;
+  margin-bottom: 4rem;
   transition: 1s ease;
+  font-size: 3rem;
 }
 @-webkit-keyframes scroll {
   0% {
