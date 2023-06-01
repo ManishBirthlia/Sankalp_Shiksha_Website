@@ -5,12 +5,13 @@
 }
 
 .Services {
-  margin: 5% auto;
+  background-color: #f5fefd;
+  padding: 2rem 0;
 }
 .Services h2 {
   text-align: center;
   font-size: 3rem;
-  margin: 3rem;
+  margin: 2rem;
   font-weight: 600;
   transition: 0.5s ease;
 }

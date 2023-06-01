@@ -6,8 +6,9 @@
   text-align: center;
 }
 .aboutsec {
-  margin: 5% 1rem;
+  padding: 2rem 0;
   overflow: hidden;
+  background-color: #f5fefd;
 }
 
 .aboutCont {

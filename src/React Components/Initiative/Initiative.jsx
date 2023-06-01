@@ -10,7 +10,6 @@ function Initiative() {
     AOS.init({ duration: 6000 });
   }, []);
   return (
-    <div>
       <div className={Styles.Services} id="services">
         <h2 data-aos="zoom-in">Initiative</h2>
         <div className={Styles.row}>
@@ -56,7 +55,6 @@ function Initiative() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

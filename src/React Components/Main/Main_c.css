@@ -8,7 +8,7 @@
 
 .position_absolute {
   position: absolute;
-  top: 25%;
+  bottom: 0;
   z-index: 1000;
   color: aliceblue !important;
   filter: drop-shadow(2px 4px 6px black);
@@ -74,9 +74,6 @@ p {
   }
 }
 @media screen and (max-width: 695px) {
-  .position_absolute {
-    top: 10%;
-  }
   .btn_same {
     font-size: 1rem;
     margin: 1rem 1rem !important;
@@ -93,8 +90,5 @@ p {
   .btn_same {
     font-size: 0.8rem;
     margin: 0.5rem 1rem !important;
-  }
-  .position_absolute {
-    top: 5%;
   }
 }

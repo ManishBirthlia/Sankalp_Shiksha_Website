@@ -1,5 +1,6 @@
 .Navbar-main {
   position: sticky;
+  filter: drop-shadow(2px 4px 6px black);
   top: 0;
   z-index: 100000000;
   width: 100%;

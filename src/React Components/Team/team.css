@@ -1,11 +1,15 @@
 .Team h1{
-   margin: 5% 0;
+   margin: 2rem 0;
+}
+.Team{
+  background-color: #f5fefd;
+  padding: 2rem 0;
+}
+.TeamInner{
+  padding-bottom: 2rem;
 }
 .Team .row{
   justify-content: center;
-}
-.Team .TeamInner{
-  margin: 1rem 0;
 }
 .our-team {
    padding: 30px 0 40px;
