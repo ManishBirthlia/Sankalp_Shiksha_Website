@@ -1,20 +1,25 @@
 import React from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "./React Components/Navbar/Navbar";
+import Home from "./Pages/Home";
+import Team from "./React Components/Team/Team";
+import WhatWeDo from "./Pages/What We Do/Whatwedo";
 import Gallery from "./React Components/Gallery/Gallery";
 import Contact from "./Pages/Contact/Contact";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Home from "./Pages/Home";
 import Footer from "./React Components/Footer/Footer";
+import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="App">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="gallery" element={<Gallery />}></Route>
+          <Route path="gallery" element={<Gallery />}/>
+          <Route path="WhatWeDo" element={<WhatWeDo />}/>
+          <Route path="Team" element={<Team />}/>
         </Routes>
         <Footer />
       </div>{" "}

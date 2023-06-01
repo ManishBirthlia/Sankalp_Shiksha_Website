@@ -21,12 +21,13 @@ figure.snip1390 {
   overflow-x: scroll;
 }
 .testsec {
-  margin: 10% auto;
+  background-color: #f5fefd;
+  padding: 2rem 0;
 }
 .testsec h1 {
   transition: 0.8s ease;
   text-align: center;
-  margin: 3rem;
+  margin: 2rem 0;
 }
 figure.snip1390 *,
 figure.snip1390 *:before,

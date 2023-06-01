@@ -3,10 +3,11 @@
   font-size: 50px;
   text-align: center;
   color: black;
-  padding: 1%;
+  margin: 2rem 0;
 }
 .GalleryStart {
-  margin: 5% auto;
+  background-color: #f5fefd;
+  padding: 2rem 0;
 }
 
 #gallery img:hover,

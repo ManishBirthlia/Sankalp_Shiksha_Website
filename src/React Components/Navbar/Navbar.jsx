@@ -44,13 +44,13 @@ function Navbar(prop) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="/WhatWeDo">
                     What we do
                   </a>
                 </li>
 
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="/Team">
                     Our Team
                   </a>
                 </li>
@@ -111,11 +111,6 @@ function Navbar(prop) {
                 </li>
                 <li>
                   <a className="dropdown-item" href="/">
-                    Outreach Mission
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
                     Stories Of Change
                   </a>
                 </li>
@@ -126,11 +121,6 @@ function Navbar(prop) {
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Annual Reports
-                  </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/">

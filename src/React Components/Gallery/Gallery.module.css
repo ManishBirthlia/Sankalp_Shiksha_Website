@@ -6,7 +6,7 @@
     padding:1%;
   }
   .GalleryStart{
-    margin: 5% auto;
+    padding: 5% auto;
   }
   #gallery img:hover{
     transform: scale(1.2);
