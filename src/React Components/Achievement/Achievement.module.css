@@ -1,69 +1,68 @@
-.Achievement{
+.Achievement {
   background-color: #f5fefd;
-  padding: 3rem ;
 }
 .mainContent {
-    width: 95%;
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-  }
-.Achievement  a {
-    color: #232323;
-    text-decoration: none;
-  }
-.Achievement  h1 {
-    font-family: 'Bree Serif', serif;
-    text-align:center;
-  }
-.Achievement  p {
-    color: #fff; 
-    padding:0;
-    margin:0;
-  }
-  .mainContent {
-    margin: 2em auto;
-  }
-  .card {
-    position:relative;
-    padding: 2em 1em;
-    border: 1px solid #e1e1e1;
-    border-radius: 0.25em;
-    background: #638EF4;
-    z-index:1;
-  }
-  .card h3 {
-    color: #fff; 
-    margin: 0.35em 0 0;
-    line-height: 2rem;
-    font-weight:500;
-  }
-  .line {
-      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/449443/line.png);
-      background-size: 20%;
-      height:20px;
-      background-repeat: no-repeat;
-      background-position: left 0; 
-  }
-  .card::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      transform: scaleY(0);
-      transform-origin: top center;
-      background: #f18776;
-      z-index: -1;
-      transition: transform 0.3s;
-  }
-  .card:hover::after {
-       transform: scaleY(1);
-  }
+  width: 95%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.Achievement a {
+  color: #232323;
+  text-decoration: none;
+}
+.Achievement h1 {
+  font-family: "Bree Serif", serif;
+  text-align: center;
+}
+.Achievement p {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.mainContent {
+  margin: 2em auto;
+}
+.card {
+  position: relative;
+  padding: 2em 1em;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.25em;
+  background: #638ef4;
+  z-index: 1;
+}
+.card h3 {
+  color: #fff;
+  margin: 0.35em 0 0;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.line {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/449443/line.png);
+  background-size: 20%;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: left 0;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top center;
+  background: #f18776;
+  z-index: -1;
+  transition: transform 0.3s;
+}
+.card:hover::after {
+  transform: scaleY(1);
+}

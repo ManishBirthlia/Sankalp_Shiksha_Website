@@ -1,41 +1,46 @@
 import React from "react";
-import styles from "./Mission.module.css";
-import team from "./DSC_0089.jpg";
-import team2 from "./DSC_0006.jpg";
+import Styles from "./Mission.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { BiLibrary } from "react-icons/bi";
+import { FaSchool } from "react-icons/fa";
 
 function Mission() {
   useEffect(() => {
     AOS.init({ duration: 6000 });
   }, []);
   return (
-    <div className={styles.aboutsec}>
-      <div className={styles.aboutCont}>
-        <div className={styles.About}>
-          <h1>Our Mission</h1>
-          <div data-aos="fade-right" className={styles.aboutCon}>
-            <div className={styles.content1}>
+    <div className={Styles.Services} id="services">
+      <h2 data-aos="zoom-in">Our Mission and Vision</h2>
+      <div className={Styles.row}>
+        <div class={Styles.column} data-aos="zoom-in">
+          <div class={Styles.card}>
+            <div class={Styles.iconwrap}>
+              <i>
+                <BiLibrary />
+              </i>
+            </div>
+            <h3>mission</h3>
+            <p>
               To empower children and youth in rural regions through various
               sustainable initiatives and links corporate competitiveness with
               social development initiatives.
-            </div>
-            <div className={styles.img}>
-              <img src={team2} alt="team" />
-            </div>
+            </p>
           </div>
         </div>
-        <div className={styles.department}>
-          <h1> Our vision </h1>
-          <div data-aos="fade-left" className={styles.aboutCon}>
-            <div className={styles.content1}>
+        <div class={Styles.column} data-aos="zoom-in">
+          <div class={Styles.card}>
+            <div class={Styles.iconwrap}>
+              <i>
+                <FaSchool />
+              </i>
+            </div>
+            <h3>vision</h3>
+            <p>
               A world where children and youth are equipped with skills and
               abilities to reach their full potential .
-            </div>
-            <div className={styles.img}>
-              <img src={team} alt="team" />
-            </div>
+            </p>
           </div>
         </div>
       </div>
