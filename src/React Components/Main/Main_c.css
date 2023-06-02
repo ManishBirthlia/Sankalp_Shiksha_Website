@@ -45,15 +45,17 @@
 p {
   margin: 0;
 }
-@media screen and (max-width: 1250px) {
-  .carousel-caption p {
+@media screen and (max-width: 1450px) {
+  .position_absolute p {
     margin: auto;
     width: 71%;
     font-size: 1rem;
   }
-  .carousel-caption h1 {
+  .position_absolute h1 {
     font-size: 2rem;
   }
+}
+@media screen and (max-width: 1250px) {
   .btn_same {
     width: 11rem;
   }
@@ -86,11 +88,12 @@ p {
 }
 @media screen and (max-width: 445px) {
   .carousel-caption h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 17px;
   }
   .carousel-caption p {
     width: 92%;
+    font-size: smaller;
   }
   .btn_same {
     font-size: 0.8rem;

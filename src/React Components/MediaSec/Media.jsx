@@ -19,24 +19,26 @@ function Navbar() {
     <div className={s.GalleryStart}>
       <h1>Media</h1>
       <hr />
-      <div id={s.gallery} class="container-fluid">
-        <img alt="" src={i1} class="img-responsive" />
-        <img alt="" src={i2} class="img-responsive" />
-        <video data-aos="zoom-in-up" class={s.vid} controls>
-          <source
-            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            type="video/mp4"
-          ></source>
-        </video>
-        <img alt="" src={i3} class="img-responsive" />
-        <img alt="" src={i4} class="img-responsive" />
-        <div class="ratio ratio-16x9">
-          <iframe data-aos="zoom-in" src="https://www.youtube.com/embed/vw7FG1bDQ8M" title="YouTube video" allow="accelerometer; autoplay; 
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div className={s.mediaVideo}> 
+          <video data-aos="zoom-in-up" class={s.vid} controls>
+            <source
+              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              type="video/mp4"
+            ></source>
+          </video>
+          <div class={s.Iframe}>
+            <iframe data-aos="zoom-in" src="https://www.youtube.com/embed/vw7FG1bDQ8M" title="YouTube video" allow="accelerometer; autoplay; 
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
-        <img alt="" src={i5} class="img-responsive" />
-        <img alt="" src={i6} class="img-responsive" />
-        <img alt="" src={i7} class="img-responsive" />
+      <div id={s.gallery} class="container-fluid">
+        <div className={s.galleryImg}><img alt="" src={i1} class="img-responsive" /></div>
+        <div className={s.galleryImg}><img alt="" src={i2} class="img-responsive" /></div>
+        <div className={s.galleryImg}><img alt="" src={i3} class="img-responsive" /></div>
+        <div className={s.galleryImg}><img alt="" src={i4} class="img-responsive" /></div>
+        <div className={s.galleryImg}><img alt="" src={i5} class="img-responsive" /></div>
+        <div className={s.galleryImg}><img alt="" src={i6} class="img-responsive" /></div>
+        <div className={s.galleryImg}><img alt="" src={i7} class="img-responsive" /></div>
       </div>
 
       <div id="myModal" class="modal fade" role="dialog">
