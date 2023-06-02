@@ -3,6 +3,13 @@ import React from "react";
 import s from "./Media.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import i1 from "./assets/i1.png";
+import i2 from "./assets/i2.jpeg";
+import i3 from "./assets/i3.jpeg";
+import i4 from "./assets/i4.jpeg";
+import i5 from "./assets/i5.png";
+import i6 from "./assets/i6.png";
+import i7 from "./assets/i7.png";
 
 function Navbar() {
   useEffect(() => {
@@ -13,22 +20,23 @@ function Navbar() {
       <h1>Media</h1>
       <hr />
       <div id={s.gallery} class="container-fluid">
+        <img alt="" src={i1} class="img-responsive" />
+        <img alt="" src={i2} class="img-responsive" />
         <video data-aos="zoom-in-up" class={s.vid} controls>
           <source
             src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
             type="video/mp4"
           ></source>
         </video>
-        <iframe
-          data-aos="zoom-in"
-          class="img-responsive"
-          src="https://www.youtube.com/embed/vw7FG1bDQ8M"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; 
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <img alt="" src={i3} class="img-responsive" />
+        <img alt="" src={i4} class="img-responsive" />
+        <div class="ratio ratio-16x9">
+          <iframe data-aos="zoom-in" src="https://www.youtube.com/embed/vw7FG1bDQ8M" title="YouTube video" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <img alt="" src={i5} class="img-responsive" />
+        <img alt="" src={i6} class="img-responsive" />
+        <img alt="" src={i7} class="img-responsive" />
       </div>
 
       <div id="myModal" class="modal fade" role="dialog">
