@@ -15,7 +15,7 @@ function Mainsection() {
         data-bs-interval="5000"
         data-bs-touch="true"
       >
-        <div className="carousel-indicators">
+        <div className="carousel-indicators ">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"

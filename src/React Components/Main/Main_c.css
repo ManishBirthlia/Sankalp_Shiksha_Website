@@ -79,6 +79,11 @@ p {
     margin: 1rem 1rem !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .carousel-inner {
+    height: 70vh;
+  }
+}
 @media screen and (max-width: 445px) {
   .carousel-caption h1 {
     font-size: 1.7rem;

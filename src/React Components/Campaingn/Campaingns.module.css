@@ -1,7 +1,7 @@
 .Campaingns {
   background-color: #f5fefd;
   text-align: center;
-  padding: 3rem;
+  padding: 3rem 1rem;
 }
 .Campaingns h2 {
   margin: 3rem auto;
@@ -131,5 +131,10 @@ article {
   section.card:nth-of-type(odd) .visual img {
     width: 100%;
     height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Campaingns {
+    font-size: smaller;
   }
 }
