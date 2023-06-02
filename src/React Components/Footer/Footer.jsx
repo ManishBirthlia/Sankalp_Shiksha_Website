@@ -14,11 +14,7 @@ function Footer() {
               their sufferings and miseries. This is the "SANKALP" to create
               happy faces all around the area where our team works and
               progressively to large scale areas, where we could outreach our
-              Generous Help. The NGO - "SANKALP" is now Budding along with the
-              Bunch of young, energetic youth from various domains - MBBS
-              students, Engineers, Innovative Entreprenuers, cyclists,
-              travellers, etc. But have a common motto. <br />
-              “Alone we can do so little but together, we can do so much”
+              Generous Help.
             </p>
           </div>
           <div class="col-xs-6 col-md-3">

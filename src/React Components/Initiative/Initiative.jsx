@@ -1,25 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Initiative.module.css";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-const responsive = {
-  superLargeDesktop: {
-    breakpoint: { max: 4000, min: 3000 },
-    items: 3,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 924 },
-    items: 2,
-  },
-
-  mobile: {
-    breakpoint: { max: 924, min: 0 },
-    items: 1,
-  },
-};
 
 function Initiative() {
   useEffect(() => {
@@ -28,7 +10,7 @@ function Initiative() {
   return (
     <div className={styles.initiative}>
       <h2>Initiative</h2>
-      <Carousel responsive={responsive}>
+      <div className={styles.cardbox}>
         <div className={styles.card}>
           <div className={styles.up}>
             <h1>Innovators of Tomorrow</h1>
@@ -96,7 +78,7 @@ function Initiative() {
             </ul>
           </div>
         </div>
-      </Carousel>
+      </div>
     </div>
   );
 }
