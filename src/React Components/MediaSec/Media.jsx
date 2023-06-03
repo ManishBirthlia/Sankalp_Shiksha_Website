@@ -26,9 +26,11 @@ function Navbar() {
               type="video/mp4"
             ></source>
           </video>
+          <h3>Title</h3>
           <div class={s.Iframe}>
             <iframe data-aos="zoom-in" src="https://www.youtube.com/embed/vw7FG1bDQ8M" title="YouTube video" allow="accelerometer; autoplay; 
           clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h3>Title</h3>
           </div>
         </div>
       <div id={s.gallery} class="container-fluid">
