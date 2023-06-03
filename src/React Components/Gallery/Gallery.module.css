@@ -9,7 +9,7 @@
   margin: 5% auto;
 }
 #gallery img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 0.8s;
 }
 #gallery {
@@ -44,10 +44,13 @@
   }
 }
 @media (max-width: 600px) {
+  .GalleryStart h1 {
+    font-size: 2rem;
+  }
   #gallery {
     -webkit-column-count: 1;
     -moz-column-count: 1;
-    column-count: 1;
+    column-count: 2;
   }
 }
 #gallery img,

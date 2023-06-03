@@ -43,11 +43,7 @@
   font-weight: 500;
 }
 .line {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/449443/line.png);
-  background-size: 20%;
   height: 20px;
-  background-repeat: no-repeat;
-  background-position: left 0;
 }
 .card::after {
   content: "";
@@ -58,7 +54,7 @@
   height: 100%;
   transform: scaleY(0);
   transform-origin: top center;
-  background: #f18776;
+  background: #9476f1;
   z-index: -1;
   transition: transform 0.3s;
 }
