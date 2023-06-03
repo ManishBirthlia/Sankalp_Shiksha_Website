@@ -40,7 +40,7 @@ function Testimonial() {
           <img src={praveen} alt="profile-sample5" class="profile" />
           <figcaption>
             <h2>Pravin Mitkar</h2>
-            <h4>Social entrepreneur</h4>
+            <h4>Social Entrepreneur</h4>
             <blockquote>
               Sankalp Shiksha is an amazing organisation that is transforming
               the rural education scenario in India. They are providing

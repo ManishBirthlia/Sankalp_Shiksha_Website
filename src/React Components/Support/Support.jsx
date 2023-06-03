@@ -21,7 +21,7 @@ function Support() {
           </div>
           <div class={s.loopSlide}>
             <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+              src="logos/1.png"
               height="100"
               width="250"
               alt=""
@@ -29,7 +29,7 @@ function Support() {
           </div>
           <div class={s.loopSlide}>
             <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+              src="logos/2-2.jpg"
               height="100"
               width="250"
               alt=""
@@ -40,7 +40,7 @@ function Support() {
           </div>
           <div class={s.loopSlide}>
             <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+              src="logos/3.jpg"
               height="100"
               width="250"
               alt=""
@@ -48,7 +48,7 @@ function Support() {
           </div>
           <div class={s.loopSlide}>
             <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+              src="logos/4-4.png"
               height="100"
               width="250"
               alt=""
