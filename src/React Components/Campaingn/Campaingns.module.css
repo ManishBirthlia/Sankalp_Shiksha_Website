@@ -8,7 +8,8 @@
   padding: 2.5rem;
 }
 section.card {
-  background: #f6f6f6;
+  background: #638ef4;
+  color: white;
   border-radius: 24px 24px 24px 48px;
   padding: 48px 48px 48px 308px;
   margin: 84px 0;
@@ -62,6 +63,7 @@ section.card .visual {
 }
 section.card .visual img {
   height: 110%;
+  width: 100%;
 }
 section.card:nth-of-type(odd) {
   margin: 0 0 0 248px;
