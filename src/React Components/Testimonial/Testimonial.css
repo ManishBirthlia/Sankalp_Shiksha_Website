@@ -9,7 +9,6 @@ figure.snip1390 {
   color: #000000;
   text-align: center;
   height: 100%;
-  background-color: #191c29;
   padding: 30px;
   transition: 0.8s ease;
   -webkit-box-sizing: border-box;
@@ -21,10 +20,12 @@ figure.snip1390 {
   overflow-x: scroll;
 }
 .testsec {
-  background-color: #f7f7f7;
+  box-shadow: -20px 9px 10px 20px rgba(0, 0, 0,);
+  background-color: #191c29;
   padding: 70px 0;
 }
 .testsec h2 {
+  color: white;
   text-align: center;
   font-size: 40px;
   margin-bottom: 40px;
@@ -103,6 +104,9 @@ figure.snip1390 .profile {
 @media screen and (min-width: 992px) {
   .testsec h2 {
     margin-bottom: 50px;
+  }
+  .testsec {
+    padding: 140px 0;
   }
 }
 @media screen and (max-width: 500px) {

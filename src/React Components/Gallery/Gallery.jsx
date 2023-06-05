@@ -9,7 +9,7 @@ function Gallery() {
   return (
     <div id="gallery" className={s.GalleryStart}>
       <h1>Image Gallery</h1>
-      <hr />
+      {/* <hr /> */}
       <div id={s.gallery} class="container-fluid">
         <img alt="" src="./Main_pics/1.jpg" class="img-responsive" />
         <img alt="" src="./Main_pics/16.jpg" class="img-responsive" />

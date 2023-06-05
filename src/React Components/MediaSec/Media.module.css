@@ -12,6 +12,7 @@
 .mediaVideo{
   text-align: center;
   padding: 3rem;
+  /* height: 400px; */
   display: flex;
 }
 .mediaVideo .video{
@@ -101,6 +102,12 @@ iframe{
 @media screen and (min-width: 992px) {
   .GalleryStart h2 {
     margin-bottom: 50px;
+  }
+  .GalleryStart {
+    padding: 140px 0;
+  }
+  .mediaVideo{
+    height: 500px;
   }
 }
 @media screen and (max-width: 500px) {

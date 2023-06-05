@@ -123,7 +123,7 @@ function Navbar(prop) {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="https://yourstory.com/hindi/social-work-with-job-meet-vikas-kumar-who-is-helping-poor-children-to-fulfill-their-dreams-education">
                     Blogs
                   </a>
                 </li>
