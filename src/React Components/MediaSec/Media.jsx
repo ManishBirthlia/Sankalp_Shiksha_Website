@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import "./Main_c.css";
+import "./Main_c.css";
 import i1 from "./assets/i1.png";
 import i2 from "./assets/i2.jpeg";
 import i3 from "./assets/i3.jpeg";
@@ -36,7 +36,7 @@ const responsive = {
 
 function Navbar() {
   useEffect(() => {
-    AOS.init({ duration: 6000 });
+    AOS.init({ duration: 10000 });
   }, []);
   return (
     <div className={s.GalleryStart}>

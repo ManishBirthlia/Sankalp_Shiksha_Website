@@ -30,15 +30,20 @@
 .active {
   border-bottom: 2px solid #ffc107;
 }
-.bttn{
-  border-radius: 2.5rem;
-  color: #4d8cff;
+.btton {
+  border-radius: 0.5rem;
   background-color: #ffc107;
-  border-color: #4d8cff;
+  border-color: none;
+  padding: 0.5rem 01rem;
   transition: 400ms;
+  font-size: 1.4rem;
+  margin: 0 2rem;
 }
-.bttn:hover {
-  color: #ffc107;
-  background-color: #4d8cff;
-  border-color: #ffc107;
+.btton:hover {
+  transform: scale(1.07);
+}
+@media (max-width: 992px) {
+  .btton {
+    margin: 0;
+  }
 }

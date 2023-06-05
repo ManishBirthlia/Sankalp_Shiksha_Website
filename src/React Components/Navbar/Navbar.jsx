@@ -123,7 +123,10 @@ function Navbar(prop) {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="https://yourstory.com/hindi/social-work-with-job-meet-vikas-kumar-who-is-helping-poor-children-to-fulfill-their-dreams-education">
+                  <a
+                    className="dropdown-item"
+                    href="https://yourstory.com/hindi/social-work-with-job-meet-vikas-kumar-who-is-helping-poor-children-to-fulfill-their-dreams-education"
+                  >
                     Blogs
                   </a>
                 </li>
@@ -136,7 +139,7 @@ function Navbar(prop) {
               </NavLink>
             </li>
           </ul>
-          <button type="button" className="btn btn-warning bttn">
+          <button type="button" className="btn btn-warning btton">
             Donate
           </button>
         </div>
