@@ -8,6 +8,7 @@ function Initiative() {
     AOS.init({ duration: 6000 });
   }, []);
   return (
+    <div class="RegularBackground RegularOverlay">
     <div className={styles.initiative}>
       <h2>Initiative</h2>
       <div className={styles.cardbox}>
@@ -79,6 +80,7 @@ function Initiative() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -1,3 +1,17 @@
 .App{
-    background-color: #f5fefd;
+    background-color: #f7f7f7;
 }
+/* .RegularBackground {
+    background-image: url("https://i.ibb.co/MGnhN7j/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 600px;
+    color: #fff;
+  }
+  
+  .RegularBackground.RegularOverlay::after {
+    position: unset;
+    background-color: rgba(31, 30, 33, 0.95);
+    z-index: 4;
+  } */

@@ -1,7 +1,13 @@
+.initiative {
+  background-color: #f7f7f7;
+  padding: 70px 0;
+}
 .initiative h2 {
   text-align: center;
-  text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  transition: 0.5s ease;
 }
 .cardbox {
   display: flex;
@@ -9,7 +15,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .card {
   border: 0.5px solid rgb(197, 188, 188);
   border-radius: 1rem;
@@ -49,5 +54,15 @@
   .card {
     width: 90%;
     margin: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .initiative h2 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .initiative h2 {
+    font-size: 30px;
   }
 }

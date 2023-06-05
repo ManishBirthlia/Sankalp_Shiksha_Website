@@ -8,10 +8,10 @@
             justify-content: center;
   } */
 .center {
-  background-color: #f5fefd;
+  background-color: #f7f7f7;
+  padding: 70px 0;
   text-align: center;
-  padding: 2rem 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .center h1 {
   margin: 2rem 0;

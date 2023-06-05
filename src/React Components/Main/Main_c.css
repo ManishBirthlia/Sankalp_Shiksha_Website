@@ -83,7 +83,7 @@ p {
 }
 @media screen and (max-width: 600px) {
   .carousel-inner {
-    height: 70vh;
+    height: 80vh;
   }
 }
 @media screen and (max-width: 445px) {

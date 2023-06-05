@@ -34,7 +34,7 @@ function Testimonial() {
   }, []);
   return (
     <div className="testsec">
-      <h1 data-aos="zoom-in">Testimonials</h1>
+      <h2 data-aos="zoom-in">Testimonials</h2>
       <Carousel responsive={responsive} swipeable={true}>
         <figure data-aos="fade-up" class="snip1390">
           <img src={praveen} alt="profile-sample5" class="profile" />

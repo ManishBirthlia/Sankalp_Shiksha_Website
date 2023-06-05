@@ -5,13 +5,13 @@
 }
 
 .Services {
-  background-color: #f5fefd;
-  padding: 2rem 0;
+  background-color: #f7f7f7;
+  padding: 70px 0;
 }
 .Services h2 {
   text-align: center;
-  font-size: 3rem;
-  margin: 2rem;
+  font-size: 40px;
+  margin-bottom: 40px;
   font-weight: 600;
   transition: 0.5s ease;
 }
@@ -22,20 +22,20 @@
 }
 .column {
   width: 100%;
-  padding: 0 1em 1em 1em;
+  margin: 0 1em 1em 1em;
   text-align: center;
   transition: 0.8s ease;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.32);
 }
 
 .card {
-  width: 10+0%;
+  width: 100%;
   height: 100%;
   padding: 2em 1.5em;
   background: linear-gradient(#191c29 50%, rgb(51, 113, 237) 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition-duration: 0.3s;
 }
@@ -88,11 +88,22 @@
   }
 }
 @media screen and (min-width: 992px) {
+  .Services h2 {
+    margin-bottom: 50px;
+  }
+  .Services {
+    padding: 140px 0;
+  }
   section {
     padding: 1em 3em;
   }
   .column {
     flex: 0 0 33.33%;
     max-width: 33.33%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Services h2 {
+    font-size: 30px;
   }
 }
