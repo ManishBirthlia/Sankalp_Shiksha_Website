@@ -66,7 +66,6 @@ function Navbar() {
         </div>
         <div class={s.Iframe}>
           <iframe
-            data-aos="zoom-in"
             src="https://www.youtube.com/embed/vw7FG1bDQ8M"
             title="YouTube video"
             allow="accelerometer; autoplay; 
@@ -76,7 +75,11 @@ function Navbar() {
           <h3>Title</h3>
         </div>
       </div>
-      <Carousel responsive={responsive} swipeable={true}>
+      <Carousel
+        className={s.Carouselmed}
+        responsive={responsive}
+        swipeable={true}
+      >
         <figure data-aos="fade-up" class="snip1390 ">
           <img alt="" src={i1} class="img-responsive w-100 h-100" />
         </figure>

@@ -134,10 +134,10 @@
   background-color: #00aced;
 }
 .socialIcons a.linkedin:hover {
-  background-color: #007bb6;
+  background-color: #bc0d9f;
 }
 .socialIcons a.dribbble:hover {
-  background-color: #ea4c89;
+  background-color: #ef1805;
 }
 @media (max-width: 767px) {
   .socialIcons li.title {

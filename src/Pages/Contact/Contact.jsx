@@ -39,17 +39,28 @@ function Contact() {
             <div className={styles.socialmedia}>
               <p>Connect with Us</p>
               <div className={styles.socialicons}>
-                <a href="https://m.facebook.com/medextrous/">
+                <a rel="noreferrer" href="https://m.facebook.com/medextrous/">
                   <FaFacebook />
                 </a>
-                <a href="https://www.instagram.com/medextrous/">
+                <a
+                  rel="noreferrer"
+                  href="https://www.instagram.com/medextrous/"
+                >
                   <FaInstagram />
                 </a>
 
-                <a href="https://www.linkedin.com/company/medextrous/mycompany/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/sankalpshiksha/"
+                >
                   <FaLinkedin />
                 </a>
-                <a href="https://www.linkedin.com/company/medextrous/mycompany/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC2xRMHVwMB8vuJBrjmylCPg"
+                >
                   <FaYoutube />
                 </a>
               </div>

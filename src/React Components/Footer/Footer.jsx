@@ -79,7 +79,12 @@ function Footer() {
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class={s.socialIcons}>
               <li>
-                <a class={`${s.facebook} ${s.footerLogo}`} href="/">
+                <a
+                  class={`${s.facebook} ${s.footerLogo}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/company/sankalpshiksha/"
+                >
                   <img
                     className={s.logos}
                     src="./Media logos/linkedin.png"
@@ -99,7 +104,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a class={`${s.dribbble} ${s.footerLogo}`} href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  class={`${s.dribbble} ${s.footerLogo}`}
+                  href="https://www.youtube.com/channel/UC2xRMHVwMB8vuJBrjmylCPg"
+                >
                   <img
                     className={s.logos}
                     src="./Media logos/youtube.png"

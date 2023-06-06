@@ -1,6 +1,9 @@
 .GalleryStart {
   background-color: #f7f7f7;
-  padding: 70px 0;
+  padding-top: 70px;
+}
+.Carouselmed {
+  margin-bottom: -15rem;
 }
 .GalleryStart h2 {
   text-align: center;
@@ -36,8 +39,7 @@ iframe {
   height: 100%;
 }
 
-#gallery div:hover,
-.GalleryStart iframe:hover {
+#gallery div:hover {
   transform: scale(1.1);
   transition-duration: 0.8s;
 }
@@ -65,6 +67,9 @@ iframe {
 @media screen and (max-width: 1025px) {
   .galleryImg {
     width: 31%;
+  }
+  .Carouselmed {
+    margin-bottom: -5rem;
   }
   .mediaVideo {
     padding: 2rem 0;
