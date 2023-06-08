@@ -73,24 +73,39 @@ function Contact() {
             <form action="#" autocomplete="off">
               <h3 className={styles.title}>Contact Us</h3>
               <div className={styles.inputcontainer}>
-                <input type="text" name="name" className={styles.input} />
-                <label for="">Name</label>
-                <span>Name</span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  required
+                  className={styles.input}
+                />
               </div>
               <div className={styles.inputcontainer}>
-                <input type="email" name="email" className={styles.input} />
-                <label for="">Email</label>
-                <span>Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Email"
+                  className={styles.input}
+                />
               </div>
               <div className={styles.inputcontainer}>
-                <input type="tel" name="phone" className={styles.input} />
-                <label for="">Phone</label>
-                <span>Phone</span>
+                <input
+                  type="tel"
+                  required
+                  name="phone"
+                  placeholder="Contact no."
+                  className={styles.input}
+                />
               </div>
               <div className={`${styles.inputcontainer} ${styles.textarea}`}>
-                <textarea name="message" className={styles.input}></textarea>
-                <label for="">Message</label>
-                <span>Message</span>
+                <textarea
+                  name="message"
+                  placeholder="message"
+                  required
+                  className={styles.input}
+                ></textarea>
               </div>
               <input type="submit" value="Send" className={styles.btn} />
             </form>
