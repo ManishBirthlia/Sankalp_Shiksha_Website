@@ -10,8 +10,8 @@ function Founder() {
           <img alt="" src="./Main_pics/1.jpg" class="img-responsive" />
         </div>
         <div className="FText">
-          <h2>Name</h2>
-          <h3>Title</h3>
+          <h2>Vikas Kumar</h2>
+          <h3>Founder</h3>
           <p>
             Mr. Vikas Kumar, graduate of NIT Hamirpur pursuing electrical and
             communication engineering was inspired by the covid emergency to

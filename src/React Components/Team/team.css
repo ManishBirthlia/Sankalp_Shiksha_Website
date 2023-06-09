@@ -9,10 +9,12 @@
   padding-bottom: 2rem;
 }
 .Team .row {
-  filter: drop-shadow(2px 4px 6px black);
+  /* filter: drop-shadow(2px 4px 6px black); */
   justify-content: center;
 }
 .our-team {
+  box-shadow: 5px 0 0 0 rgba(204, 204, 204, 0.3), -5px 0 0 0 rgba(204, 204, 204, 0.3), 0 5px 0 0 rgba(204, 204, 204, 0.3);
+  border-radius: 2%;
   padding: 30px 0 40px;
   height: 100%;
   margin-bottom: 30px;
