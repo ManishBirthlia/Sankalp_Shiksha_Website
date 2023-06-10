@@ -25,6 +25,22 @@ import kriti from "./executive/Screenshot (136).png";
 import shashank from "./executive/Screenshot (137).png";
 import varun from "./executive/Screenshot (138).png";
 import Mayur from "./executive/Screenshot (139).png";
+import aditya from "./mentors/Screenshot (151).png";
+import kaushar from "./mentors/Screenshot (164).png";
+import rao from "./mentors/Screenshot (165).png";
+import dolly from "./mentors/Screenshot (161).png";
+import singh from "./mentors/Screenshot (155).png";
+import mahajan from "./mentors/Screenshot (156).png";
+import kumar from "./mentors/Screenshot (157).png";
+import bhusan from "./mentors/Screenshot (152).png";
+import swati from "./mentors/Screenshot (159).png";
+import mukund from "./mentors/Screenshot (160).png";
+import ashok from "./mentors/Screenshot (153).png";
+import ishita from "./mentors/Screenshot (158).png";
+import banyal from "./mentors/Screenshot (163).png";
+import ujjawal from "./mentors/Screenshot (166).png";
+import bissa from "./mentors/Screenshot (162).png";
+import vivek from "./mentors/Screenshot (164).png";
 import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
@@ -49,7 +65,7 @@ const responsive = {
   },
 };
 
-export default () => {
+function Team() {
   return (
     <div class="container Team" style={{ textAlign: "center" }}>
       <h1>Our Founders</h1>
@@ -136,10 +152,45 @@ export default () => {
       </div>
       <h1>Mentors</h1>
       <div class="row">
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
+        <Carousel class="row" responsive={responsive}>
+          <ExTeam photo={aditya} name="Aditya Kumar" title="SDE-Facebook" />
+          <ExTeam photo={kaushar} name="Sahil kaushar" title="Director NCF" />
+          <ExTeam photo={rao} name="Sumit Rao" title="SDE-Samsung" />
+
+          <ExTeam
+            photo={singh}
+            name="Surjeet Singh"
+            title="SDO-Electricity Dept."
+          />
+          <ExTeam
+            photo={mahajan}
+            name="Siddarth Mahajan"
+            title="Er.-Maruti Suzuki"
+          />
+          <ExTeam
+            photo={kumar}
+            name="Abhishek Kumar "
+            title="PHD,IIT Kharagpur"
+          />
+          <ExTeam
+            photo={bhusan}
+            name="Shashi Bhusan"
+            title="Gate AIR-7,PHD-IITM"
+          />
+          <ExTeam photo={swati} name="Swati" title="SDE-Samsung" />
+          <ExTeam
+            photo={mukund}
+            name="Mukund Agarwal"
+            title="SDE-Urban Company"
+          />
+          <ExTeam photo={bissa} name="Priyanka Bissa" title="Social Activist" />
+          <ExTeam photo={ujjawal} name="Ujjawal Gupta" title="SDE-Samsung*" />
+          <ExTeam photo={banyal} name="Vinumar Banyal" title="NIT-Hamirpur" />
+          <ExTeam photo={vivek} name="Vivek Singh" title="Social Activist" />
+          <ExTeam photo={ishita} name="Ishita Bhatia" />
+          <ExTeam photo={ashok} name="Ashok Gupta" />
+          <ExTeam photo={dolly} name="Dolly Razora" title=" " />
+        </Carousel>
       </div>
       <h1>Our Community</h1>
       <div class="row">
@@ -150,4 +201,6 @@ export default () => {
       </div>
     </div>
   );
-};
+}
+
+export default Team;
