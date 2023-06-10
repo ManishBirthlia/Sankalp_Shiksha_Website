@@ -15,13 +15,9 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1548142813-c348350df52b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/1.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
-
         <section class={s.card}>
           <div class={s.textContent}>
             <h3>Ration distribution during Bihar and UP flood</h3>
@@ -31,10 +27,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/flood.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -46,10 +39,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/Clean_1.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -61,10 +51,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/road.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -76,10 +63,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/diwali.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -91,10 +75,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/air force.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -106,10 +87,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/children.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -121,25 +99,19 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/holi.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
           <div class={s.textContent}>
-            <h3>Rakshanda celebration</h3>
+            <h3>Rakshabandhan celebration</h3>
             <p>
             Team Sankalp celebrated Rakhi with students at 4 pathshalas, distributed sweets  and Rakhis. Girl students tied Rakhi to volunteer/ teachers of pathshala as symbol of protection and gratitude towards them.
             </p>
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/rakshabandhan.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
         <section class={s.card}>
@@ -151,10 +123,7 @@ function Campaingns() {
             {/* <a href="#">Join now</a> */}
           </div>
           <div class={s.visual}>
-            <img
-              src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgzMDU1NDY&ixlib=rb-4.0.3&q=80"
-              alt=""
-            />
+          <img src="./campaign_Pics/independence.png" alt="Pic of Ration distribution during Bihar and UP flood"/>
           </div>
         </section>
       </article>
