@@ -62,7 +62,7 @@ function Navbar() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-          <h3>Title</h3>
+          <h3>Vikas Kumar - The Changemaker</h3>
         </div>
         <div class={s.Iframe}>
           <iframe
@@ -72,7 +72,7 @@ function Navbar() {
               clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-          <h3>Title</h3>
+          <h3>How Sankalp Foundation Began</h3>
         </div>
       </div>
       <Carousel

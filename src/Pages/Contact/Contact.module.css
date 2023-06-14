@@ -6,10 +6,23 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.top1 {
-  margin: auto;
-  margin-bottom: 3rem;
+.top1{
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://sankalpshiksha.com/wp-content/themes/hestia/assets/img/contact.jpg);
 }
+/* .top1:before {
+  display: block;
+  position: absolute;
+  z-index: 0 ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+  content: "";
+} */
 .top1 h1 {
   text-align: center;
   margin: 3rem 0 2rem 0;
@@ -84,6 +97,7 @@
 form {
   padding: 2.3rem 2.2rem;
   position: relative;
+  text-align: center;
 }
 
 .title {
@@ -95,27 +109,26 @@ form {
 
 .inputcontainer {
   position: relative;
-  margin: 1rem 0;
+  margin: 2px 0;
 }
 
 .input {
   width: 100%;
   outline: none;
-  border: 2px solid #fafafa;
   background: none;
+  box-shadow: -1px -1px 0px 0px #c9c9c9ab;
   padding: 0.6rem 1.2rem;
   color: #fff;
   font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: 1px;
-  border-radius: 25px;
   transition: 0.3s;
 }
 
 textarea.input {
   padding: 0.8rem 1.2rem;
   min-height: 150px;
-  border-radius: 22px;
+  border-radius: 0 0 10px 10px;
   resize: none;
   overflow-y: auto;
 }
@@ -144,12 +157,10 @@ textarea.input {
   border: 2px solid #ffff;
   font-size: 0.95rem;
   line-height: 1;
-  border-radius: 25px;
-  color: #1a70bc;
+  border-radius: 10px;
+  color: #ffffff;
   font-weight: 600;
-  cursor: pointer;
   transition: 0.3s;
-  margin: 0;
   outline: none;
 }
 
@@ -277,9 +288,9 @@ textarea.input {
   .form {
     grid-template-columns: 1fr;
   }
-  .top1 {
+  /* .top1 {
     margin: 1rem 0;
-  }
+  } */
   .contactinfo::before {
     bottom: initial;
     top: -72px;

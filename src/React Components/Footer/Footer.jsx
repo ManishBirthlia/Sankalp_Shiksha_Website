@@ -18,7 +18,7 @@ function Footer() {
             </p>
           </div>
           <div class="col-xs-6 col-md-3">
-            <h6>Programmes</h6>
+            {/* <h6>Programmes</h6>
             <ul class={s.footerLinks}>
               <li>
                 <a href="/">A</a>
@@ -38,7 +38,7 @@ function Footer() {
               <li>
                 <a href="/">F</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>

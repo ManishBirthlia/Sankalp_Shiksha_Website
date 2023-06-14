@@ -18,7 +18,7 @@ function Contact() {
   return (
     <div id="contact" className={styles.top1}>
       {" "}
-      <h1>Contact us</h1>
+      <div><h1>Contact us</h1></div>
       <div data-aos="zoom-in" className={styles.container}>
         <div className={styles.form}>
           <div className={styles.contactinfo}>
@@ -28,7 +28,7 @@ function Contact() {
             <div className={styles.info}>
               <div className={styles.information}>
                 <FaEnvelope className={styles.iconre} />
-                <p>contact@sankalpshiksha.com</p>
+                <p><a href="mailto:contact@sankalpshiksha.com" style={{textDecoration:"none",color:"white"}}>contact@sankalpshiksha.com</a></p>
               </div>
               <div className={styles.information}>
                 <FaPhone className={styles.iconre} />
