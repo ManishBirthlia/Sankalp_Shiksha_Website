@@ -17,13 +17,13 @@ function Contact() {
   }, []);
   return (
     <div id="contact" className={styles.top1}>
-      {" "}
+    <div className={styles.background}></div>
       <div><h1>Contact us</h1></div>
       <div data-aos="zoom-in" className={styles.container}>
         <div className={styles.form}>
           <div className={styles.contactinfo}>
             <h3 className={styles.title}>Let's get in touch</h3>
-            <p className={styles.text}>Sankalp Shakti</p>
+            <p className={styles.text}>Sankalp Shiksha</p>
 
             <div className={styles.info}>
               <div className={styles.information}>
@@ -76,6 +76,7 @@ function Contact() {
                 <input
                   type="text"
                   name="name"
+                  style={{borderRadius:"10px 10px 0 0"}}
                   placeholder="Name"
                   required
                   className={styles.input}
@@ -103,7 +104,6 @@ function Contact() {
                 <textarea
                   name="message"
                   placeholder="message"
-                  required
                   className={styles.input}
                 ></textarea>
               </div>

@@ -7,6 +7,7 @@ import WhatWeDo from "./Pages/What We Do/Whatwedo";
 import Gallery from "./React Components/Gallery/Gallery";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./React Components/Footer/Footer";
+import NotFound from "./Pages/NotFound";
 import "./App.css";
 
 function App() {
@@ -16,10 +17,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="gallery" element={<Gallery />}/>
-          <Route path="WhatWeDo" element={<WhatWeDo />}/>
-          <Route path="Team" element={<Team />}/>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />}/>
+          <Route path="/WhatWeDo" element={<WhatWeDo />}/>
+          <Route path="/Team" element={<Team />}/>
+          <Route path="*" element={<NotFound />}/>
         </Routes>
         <Footer />
       </div>{" "}
