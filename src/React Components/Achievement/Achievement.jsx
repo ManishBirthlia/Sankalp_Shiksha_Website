@@ -1,9 +1,9 @@
 import React from "react";
 import s from "./Achievement.module.css";
 
-export default () => {
+export default function Achievement(){
   return (
-    <div className={s.Achievement}>
+    <div id="Achievement" className={s.Achievement}>
       <h1>Achievements</h1>
       <div class={s.mainContent}>
         <div class={s.card}>
