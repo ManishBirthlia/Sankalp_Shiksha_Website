@@ -7,25 +7,30 @@
   font-family: "Poppins", sans-serif;
 }
 .top1{
+  min-height: 80vh;
+  position: relative;
   padding: 1rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(https://sankalpshiksha.com/wp-content/themes/hestia/assets/img/contact.jpg);
 }
-/* .top1:before {
-  display: block;
+.background {
   position: absolute;
-  z-index: 0 ;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.7);
-  content: "";
-} */
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url(https://sankalpshiksha.com/wp-content/themes/hestia/assets/img/contact.jpg);
+  filter: brightness(0.4); /* Adjust the value as per your preference */
+  z-index: 0;
+}
 .top1 h1 {
+  position: relative;
+  z-index: 1;
+  padding-top: 3rem;
+  color: aliceblue;
   text-align: center;
-  margin: 3rem 0 2rem 0;
+  margin: 0 0 2rem 0;
 }
 .iconre {
   margin: 0 0.5rem;
