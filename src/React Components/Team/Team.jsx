@@ -97,7 +97,8 @@ function Team() {
           title="Media Co-Ordinator, NIT hamirpur"
         />
       </div>
-      <h1>Executive Members</h1>
+      {/* <h1>Executive Members</h1> */}
+      <h1>Volunteers</h1>
       <div class="row">
         <Carousel class="row" responsive={responsive}>
           <ExTeam
@@ -192,15 +193,14 @@ function Team() {
           <ExTeam photo={dolly} name="Dolly Razora" title=" " />
         </Carousel>
       </div>
-      <h1>Our Community</h1>
+      <h1>Intern Team</h1>
       <div class="row">
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T name="Vikas kumar" title="CEO, NIT hamirpur" />
+        <T name="Manish Birthlia" title="Team Leader & Web Developer, NIT hamirpur" />
+        <T name="Sidhant Sadyal" title="Web Developer, NIT hamirpur" />
+        <T name="Sunil Goyal" title="Video Editor & Web Developer" />
+        <T name="Sourabh Awasthy" title="Web Developer, NIT hamirpur" />
       </div>
     </div>
   );
 }
-
 export default Team;

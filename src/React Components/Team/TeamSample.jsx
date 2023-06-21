@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export default (prop) => {
   return (
     <>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 TeamInner">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2 TeamInner">
         <div class="our-team">
           <div class="picture">
             <img class="img-fluid" src={prop.photo} alt="" />
