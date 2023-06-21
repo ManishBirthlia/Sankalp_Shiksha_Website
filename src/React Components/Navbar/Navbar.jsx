@@ -1,18 +1,18 @@
 import React from "react";
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar(prop) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark Navbar-main">
       <div className="container-fluid mx-2">
-        <a className="navbar-brand nb" href="/">
+        <Link className="navbar-brand nb" to="/">
           <img src="./Media logos/SANKALP SHIKSHA ICON.png" alt="" srcset="" />
           <div>
             SANKALP <br />
             <p>SHIKSHA</p>
           </div>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -44,22 +44,22 @@ function Navbar(prop) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <li>
-                  <a className="dropdown-item" href="/WhatWeDo">
+                  <NavLink className="dropdown-item" to="/WhatWeDo">
                     What we do
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li>
-                  <a className="dropdown-item" href="/Team">
+                  <NavLink className="dropdown-item" to="/Team">
                     Our Team
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="gallery">
+                  <NavLink className="dropdown-item" to="/gallery">
                     Gallery
                   </NavLink>
                 </li>
@@ -67,16 +67,16 @@ function Navbar(prop) {
             </li>
             <li className="nav-item dropdown mg">
               <a
-                className="nav-link dropdown-toggle"
-                href="/"
+                className="nav-link" // dropdown-item
+                href="#Initiative"
                 id="navbarDropdown2"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                // role="button"
+                // data-bs-toggle="dropdown"
+                // aria-expanded="false"
               >
-                All Programmes
+                Our Initiative
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
+              {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
                 <li>
                   <a className="dropdown-item" href="/">
                     #
@@ -90,7 +90,7 @@ function Navbar(prop) {
                     #
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="nav-item dropdown mg">
               <a
@@ -115,9 +115,9 @@ function Navbar(prop) {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/WhatWeDo">
                     Awards and Recognitions
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
@@ -135,7 +135,7 @@ function Navbar(prop) {
 
             <li className="nav-item mg">
               <NavLink className="nav-link" to="contact">
-                Contact
+                Contact Us
               </NavLink>
             </li>
           </ul>
