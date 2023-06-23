@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./style.module.css";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -44,16 +45,19 @@ function Footer() {
             <h6>Quick Links</h6>
             <ul class={s.footerLinks}>
               <li>
-                <a href="/">About Us</a>
+                <NavLink to="/" reloadDocument>About Us</NavLink>
               </li>
               <li>
-                <a href="#Supportes">Contact Us</a>
+                <NavLink to="/privacyPolicy">Privacy Policy</NavLink>
               </li>
               <li>
-                <a href="#Main_section">Contribute</a>
+                <NavLink to="/Terms">T&C</NavLink>
               </li>
               <li>
-                <a href="/">Privacy Policy</a>
+                <NavLink to="/Refund">Refund Policy</NavLink>
+              </li>
+              <li>
+              <NavLink to="/Contact">Contact Us</NavLink>
               </li>
               <li>
                 <a

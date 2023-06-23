@@ -6,6 +6,9 @@ import Team from "./React Components/Team/Team";
 import WhatWeDo from "./Pages/What We Do/Whatwedo";
 import Gallery from "./React Components/Gallery/Gallery";
 import Contact from "./Pages/Contact/Contact";
+import PrivacyPolicy from "./Pages/legal/privacyPolicy";
+import Refund from "./Pages/legal/Refund";
+import Terms from "./Pages/legal/Terms";
 import Footer from "./React Components/Footer/Footer";
 import NotFound from "./Pages/NotFound";
 import "./App.css";
@@ -21,6 +24,9 @@ function App() {
           <Route path="/gallery" element={<Gallery />}/>
           <Route path="/WhatWeDo" element={<WhatWeDo />}/>
           <Route path="/Team" element={<Team />}/>
+          <Route path="/privacyPolicy" element={<PrivacyPolicy />}/>
+          <Route path="/Refund" element={<Refund />}/>
+          <Route path="/Terms" element={<Terms />}/>
           <Route path="*" element={<NotFound />}/>
         </Routes>
         <Footer />

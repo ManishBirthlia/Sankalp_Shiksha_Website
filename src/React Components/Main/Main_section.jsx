@@ -1,6 +1,10 @@
 import React from "react";
 import "./Main_c.css";
 import img1 from "./4.JPG";
+import img1_1 from "./4_small.JPG";
+import img2_1 from "./11_small.JPG";
+import img3_1 from "./2_small.JPG";
+import img4_1 from "./12_small.JPG";
 import img2 from "./11.JPG";
 import img3 from "./2.JPG";
 import img4 from "./12.JPG";
@@ -65,13 +69,15 @@ function Mainsection() {
               height: "90vh",
               backgroundColor: "#FFC7C7",
             }}
-          >
+          ><picture >
+            <source media="(max-width:500px)" srcset={img1_1}/>
             <img
               src={img1}
+              loading="lazy"
               style={{ width: "100vw", height: "90vh" }}
               alt=""
-              srcset=""
             />
+          </picture>
           </div>
           <div
             className="carousel-item"
@@ -81,12 +87,15 @@ function Mainsection() {
               backgroundColor: "#8785A2",
             }}
           >
+            <picture >
+            <source media="(max-width:500px)" srcset={img2_1}/>
             <img
               src={img2}
+              loading="lazy"
               style={{ width: "100vw", height: "90vh" }}
               alt=""
-              srcset=""
             />
+          </picture>
           </div>
           <div
             className="carousel-item"
@@ -96,12 +105,15 @@ function Mainsection() {
               backgroundColor: "#594545",
             }}
           >
+            <picture >
+            <source media="(max-width:500px)" srcset={img3_1}/>
             <img
               src={img3}
+              loading="lazy"
               style={{ width: "100vw", height: "90vh" }}
               alt=""
-              srcset=""
             />
+          </picture>
           </div>
           <div
             className="carousel-item"
@@ -111,12 +123,15 @@ function Mainsection() {
               backgroundColor: "#A6E3E9",
             }}
           >
+            <picture >
+            <source media="(max-width:500px)" srcset={img4_1}/>
             <img
               src={img4}
+              loading="lazy"
               style={{ width: "100vw", height: "90vh" }}
               alt=""
-              srcset=""
             />
+          </picture>
           </div>
         </div>
         <button
