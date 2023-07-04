@@ -5,16 +5,16 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 function ExTeam(prop) {
   return (
     <div>
-      <div class=" m-2 TeamInner">
-        <div class="our-team">
-          <div class="picture">
-            <img class="img-fluid" src={prop.photo} alt="" />
+      <div className=" m-2 TeamInner">
+        <div className="our-team">
+          <div className="picture">
+            <img className="img-fluid" src={prop.photo} alt="" />
           </div>
-          <div class="team-content">
-            <h3 class="name">{prop.name}</h3>
-            <h4 class="title">{prop.title}</h4>
+          <div className="team-content">
+            <h3 className="name">{prop.name}</h3>
+            <h4 className="title">{prop.title}</h4>
           </div>
-          <ul class="social">
+          <ul className="social">
             <li>
               <a href="/" aria-hidden="true">
                 <FaFacebook />

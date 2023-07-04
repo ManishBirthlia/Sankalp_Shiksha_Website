@@ -10,28 +10,28 @@ function Gallery() {
     <div id="gallery" className={s.GalleryStart}>
       <h1>Image Gallery</h1>
       {/* <hr /> */}
-      <div id={s.gallery} class="container-fluid">
-        <img alt="" src="./Main_pics/1.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/16.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/15.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/14.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/13.jpg" class="img-responsive" />
-        <img alt="" src={img12} class="img-responsive" />
-        <img alt="" src={img11} class="card img-responsive" />
-        <img alt="" src="./Main_pics/10.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/9.jpg" class="img-responsive" />
-        <img alt="" src={img4} class="img-responsive" />
-        <img alt="" src="./Main_pics/6.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/7.jpg" class="img-responsive" />
-        <img alt="" src="./Main_pics/3.jpg" class="img-responsive" />
-        <img alt="" src={img2} class="img-responsive" />
-        <img alt="" src="./Main_pics/5.jpg" class="img-responsive" />
+      <div id={s.gallery} className="container-fluid">
+        <img alt="" src="./Main_pics/1.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/16.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/15.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/14.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/13.jpg" className="img-responsive" />
+        <img alt="" src={img12} className="img-responsive" />
+        <img alt="" src={img11} className="card img-responsive" />
+        <img alt="" src="./Main_pics/10.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/9.jpg" className="img-responsive" />
+        <img alt="" src={img4} className="img-responsive" />
+        <img alt="" src="./Main_pics/6.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/7.jpg" className="img-responsive" />
+        <img alt="" src="./Main_pics/3.jpg" className="img-responsive" />
+        <img alt="" src={img2} className="img-responsive" />
+        <img alt="" src="./Main_pics/5.jpg" className="img-responsive" />
       </div>
 
-      <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body"></div>
+      <div id="myModal" className="modal fade" role="dialog">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-body"></div>
           </div>
         </div>
       </div>

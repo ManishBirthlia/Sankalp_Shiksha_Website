@@ -36,8 +36,8 @@ function Testimonial() {
     <div className="testsec">
       <h2 data-aos="zoom-in">Testimonials</h2>
       <Carousel responsive={responsive} swipeable={true}>
-        <figure data-aos="fade-up" class="snip1390">
-          <img src={praveen} alt="profile-sample5" class="profile" />
+        <figure data-aos="fade-up" className="snip1390">
+          <img src={praveen} alt="profile-sample5" className="profile" />
           <figcaption>
             <h2>Pravin Mitkar</h2>
             <h4>Social Entrepreneur</h4>
@@ -51,8 +51,8 @@ function Testimonial() {
             </blockquote>
           </figcaption>
         </figure>
-        <figure data-aos="fade-up" class="snip1390">
-          <img src={rupesh} alt="profile-sample6" class="profile" />
+        <figure data-aos="fade-up" className="snip1390">
+          <img src={rupesh} alt="profile-sample6" className="profile" />
           <figcaption>
             <h2>Rupesh Sawant</h2>
             <h4>SDE at LTI</h4>
@@ -66,8 +66,8 @@ function Testimonial() {
             </blockquote>
           </figcaption>
         </figure>
-        <figure data-aos="fade-up" class="snip1390">
-          <img src={parvi} alt="profile-sample3" class="profile" />
+        <figure data-aos="fade-up" className="snip1390">
+          <img src={parvi} alt="profile-sample3" className="profile" />
           <figcaption>
             <h2>Parvi Gupta</h2>
             <h4>NITH, Ex BA In Amazon </h4>
@@ -81,8 +81,8 @@ function Testimonial() {
             </blockquote>
           </figcaption>
         </figure>
-        <figure data-aos="fade-up" class="snip1390">
-          <img src={himanshu} alt="profile-sample6" class="profile" />
+        <figure data-aos="fade-up" className="snip1390">
+          <img src={himanshu} alt="profile-sample6" className="profile" />
           <figcaption>
             <h2>Himanshu Kr. Barnawal</h2>
             <h4>CEO (Ads Bee Pvt. Ltd0)</h4>

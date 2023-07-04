@@ -8,12 +8,12 @@ function Initiative() {
     AOS.init({ duration: 6000 });
   }, []);
   return (
-    <div id="Initiative" class="RegularBackground RegularOverlay">
+    <div id="Initiative" className="RegularBackground RegularOverlay">
       <div className={styles.initiative}>
         <h2>Initiative</h2>
         <div className={styles.row}>
-          <div class={styles.column} data-aos="zoom-in">
-            <div class={styles.card}>
+          <div className={styles.column} data-aos="zoom-in">
+            <div className={styles.card}>
               <h3>Innovators of Tomorrow</h3>
               <h5>Aspire to Inspire</h5>
               <p>
@@ -26,8 +26,8 @@ function Initiative() {
               </p>
             </div>
           </div>
-          <div class={styles.column} data-aos="zoom-in">
-            <div class={styles.card}>
+          <div className={styles.column} data-aos="zoom-in">
+            <div className={styles.card}>
               <h3>Rojgar Buddy</h3>
               <h5>Get your job Ready</h5>
               <p>
@@ -42,8 +42,8 @@ function Initiative() {
               </p>
             </div>
           </div>
-          <div class={styles.column} data-aos="zoom-in">
-            <div class={styles.card}>
+          <div className={styles.column} data-aos="zoom-in">
+            <div className={styles.card}>
               <h3>Sankalp Se Vikalp</h3>
               <h5>Empowering the Next Generation</h5>
               <p>

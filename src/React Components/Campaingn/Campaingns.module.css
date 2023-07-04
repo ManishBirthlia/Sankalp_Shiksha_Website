@@ -105,7 +105,7 @@ article {
 }
 @media all and (max-width: 720px) {
   section.card {
-    margin: 64px 0;
+    margin: 80px 0;
     padding: 88px 36px 36px;
     flex-direction: column;
     border-radius: 24px;

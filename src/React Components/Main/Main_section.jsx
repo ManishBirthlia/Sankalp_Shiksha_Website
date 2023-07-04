@@ -67,10 +67,9 @@ function Mainsection() {
             style={{
               width: "100vw",
               height: "90vh",
-              backgroundColor: "#FFC7C7",
             }}
           ><picture >
-            <source media="(max-width:500px)" srcset={img1_1}/>
+            <source media="(max-width:500px)" srcSet={img1_1}/>
             <img
               src={img1}
               loading="lazy"
@@ -84,11 +83,10 @@ function Mainsection() {
             style={{
               width: "100vw",
               height: "90vh",
-              backgroundColor: "#8785A2",
             }}
           >
             <picture >
-            <source media="(max-width:500px)" srcset={img2_1}/>
+            <source media="(max-width:500px)" srcSet={img2_1}/>
             <img
               src={img2}
               loading="lazy"
@@ -102,11 +100,10 @@ function Mainsection() {
             style={{
               width: "100vw",
               height: "90vh",
-              backgroundColor: "#594545",
             }}
           >
             <picture >
-            <source media="(max-width:500px)" srcset={img3_1}/>
+            <source media="(max-width:500px)" srcSet={img3_1}/>
             <img
               src={img3}
               loading="lazy"
@@ -120,11 +117,10 @@ function Mainsection() {
             style={{
               width: "100vw",
               height: "90vh",
-              backgroundColor: "#A6E3E9",
             }}
           >
             <picture >
-            <source media="(max-width:500px)" srcset={img4_1}/>
+            <source media="(max-width:500px)" srcSet={img4_1}/>
             <img
               src={img4}
               loading="lazy"

@@ -71,9 +71,9 @@ const responsive = {
 
 function Team() {
   return (
-    <div class="container Team" style={{ textAlign: "center" }}>
+    <div className="container Team" style={{ textAlign: "center" }}>
       <h1>Our Founders</h1>
-      <div class="row">
+      <div className="row">
         <T
           photo={sourabh}
           name="Saurabh kumar sharma"
@@ -103,8 +103,8 @@ function Team() {
       </div>
       <h1>Executive Members</h1>
       {/* <h1>Volunteers</h1> */}
-      <div class="row">
-        <Carousel class="row" responsive={responsive}>
+      <div className="row">
+        <Carousel className="row" responsive={responsive}>
           <ExTeam
             photo={Amit}
             name="Amit Jaiswal"
@@ -128,8 +128,8 @@ function Team() {
         </Carousel>
       </div>
       <h1>Mentors</h1>
-      <div class="row">
-        <Carousel class="row" responsive={responsive}>
+      <div className="row">
+        <Carousel className="row" responsive={responsive}>
           <ExTeam photo={aditya} name="Aditya Kumar" title="SDE-Facebook" />
           <ExTeam photo={kaushar} name="Sahil kaushar" title="Director NCF" />
           <ExTeam photo={rao} name="Sumit Rao" title="SDE-Samsung" />
@@ -170,8 +170,8 @@ function Team() {
         </Carousel>
       </div>
       <h1>Intern Team</h1>
-      <div class="row">
-        <Carousel class="row" responsive={responsive}>
+      <div className="row">
+        <Carousel className="row" responsive={responsive}>
           <ExTeam name="Manish Birthlia" title="Team Leader & Web Developer, NIT hamirpur" />
           <ExTeam name="Sidhant Sadyal" title="Web Developer, NIT hamirpur" />
           <ExTeam name="Sunil Goyal" title="Video Editor & Web Developer" />

@@ -18,7 +18,6 @@ function Contact() {
   return (
     <div id="contact" className={styles.top1}>
     <div className={styles.background}></div>
-      <div><h1>Contact us</h1></div>
       <div data-aos="zoom-in" className={styles.container}>
         <div className={styles.form}>
           <div className={styles.contactinfo}>
@@ -70,7 +69,7 @@ function Contact() {
             <div className={`${styles.circle} ${styles.one}`}></div>
             <div className={`${styles.circle} ${styles.two}`}></div>
 
-            <form action="#" autocomplete="off">
+            <form action="#" autoComplete="off">
               <h3 className={styles.title}>Contact Us</h3>
               <div className={styles.inputcontainer}>
                 <input

@@ -4,12 +4,12 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer class={s.siteFooter}>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
+    <footer className={s.siteFooter}>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-md-6">
             <h6>About</h6>
-            <p class="text-justify">
+            <p className="text-justify">
               "SANKALP" is the 'determination' of Being-able to help and serve
               the Society as per needed, according to the situation to reduce
               their sufferings and miseries. This is the "SANKALP" to create
@@ -18,9 +18,9 @@ function Footer() {
               Generous Help.
             </p>
           </div>
-          <div class="col-xs-6 col-md-3">
+          <div className="col-xs-6 col-md-3">
             {/* <h6>Programmes</h6>
-            <ul class={s.footerLinks}>
+            <ul className={s.footerLinks}>
               <li>
                 <a href="/">A</a>
               </li>
@@ -41,23 +41,23 @@ function Footer() {
               </li>
             </ul> */}
           </div>
-          <div class="col-xs-6 col-md-3">
+          <div className="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
-            <ul class={s.footerLinks}>
+            <ul className={s.footerLinks}>
               <li>
-                <NavLink to="/" reloadDocument>About Us</NavLink>
+                <NavLink to="/" onClick={()=>window.scrollTo(0,0)}>About Us</NavLink>
               </li>
               <li>
-                <NavLink to="/privacyPolicy">Privacy Policy</NavLink>
+                <NavLink to="/privacyPolicy" onClick={()=>window.scrollTo(0,0)}>Privacy Policy</NavLink>
               </li>
               <li>
-                <NavLink to="/Terms">T&C</NavLink>
+                <NavLink to="/Terms" onClick={()=>window.scrollTo(0,0)}>T&C</NavLink>
               </li>
               <li>
-                <NavLink to="/Refund">Refund Policy</NavLink>
+                <NavLink to="/Refund" onClick={()=>window.scrollTo(0,0)}>Refund Policy</NavLink>
               </li>
               <li>
-              <NavLink to="/Contact">Contact Us</NavLink>
+              <NavLink to="/Contact" onClick={()=>window.scrollTo(0,0)}>Contact Us</NavLink>
               </li>
               <li>
                 <a
@@ -72,19 +72,19 @@ function Footer() {
         </div>
         <hr />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class={s.copyrightText}>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8 col-sm-6 col-xs-12">
+            <p className={s.copyrightText}>
               Copyright &copy; 2023 All Rights Reserved by
               <a href="/"> Sankalp Faundation</a>.
             </p>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class={s.socialIcons}>
+          <div className="col-md-4 col-sm-6 col-xs-12">
+            <ul className={s.socialIcons}>
               <li>
                 <a
-                  class={`${s.facebook} ${s.footerLogo}`}
+                  className={`${s.facebook} ${s.footerLogo}`}
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/company/sankalpshiksha/"
@@ -93,17 +93,17 @@ function Footer() {
                     className={s.logos}
                     src="./Media logos/linkedin.png"
                     alt=""
-                    srcset=""
+                    srcSet=""
                   />
                 </a>
               </li>
               <li>
-                <a class={`${s.twitter} ${s.footerLogo}`} href="/">
+                <a className={`${s.twitter} ${s.footerLogo}`} href="/">
                   <img
                     className={s.logos}
                     src="./Media logos/twitter.png"
                     alt=""
-                    srcset=""
+                    srcSet=""
                   />
                 </a>
               </li>
@@ -111,24 +111,24 @@ function Footer() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  class={`${s.dribbble} ${s.footerLogo}`}
+                  className={`${s.dribbble} ${s.footerLogo}`}
                   href="https://www.youtube.com/channel/UC2xRMHVwMB8vuJBrjmylCPg"
                 >
                   <img
                     className={s.logos}
                     src="./Media logos/youtube.png"
                     alt=""
-                    srcset=""
+                    srcSet=""
                   />
                 </a>
               </li>
               <li>
-                <a class={`${s.linkedin} ${s.footerLogo}`} href="/">
+                <a className={`${s.linkedin} ${s.footerLogo}`} href="/">
                   <img
                     className={s.logos}
                     src="./Media logos/instagram.png"
                     alt=""
-                    srcset=""
+                    srcSet=""
                   />
                 </a>
               </li>

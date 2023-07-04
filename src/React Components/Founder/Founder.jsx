@@ -1,13 +1,15 @@
 import React from "react";
 import "./Founder.css";
+import { Container } from "react-bootstrap";
 
 function Founder() {
   return (
+    <Container>
     <div className="Founder">
       <h1>Founder's Story</h1>
       <div className="Fdisplay">
         <div className="Fimg">
-          <img alt="" src="./Main_pics/1.jpg" class="img-responsive" />
+          <img alt="" src="./Main_pics/1.jpg" className="img-responsive" />
         </div>
         <div className="FText">
           <h2>Vikas Kumar</h2>
@@ -27,11 +29,11 @@ function Founder() {
         </div>
       </div>
     </div>
-
+    </Container>
     // <>
     // <div className="Founder">
     // <h2>Our Founder's Story</h2>
-    //   <figure class="snip1579">
+    //   <figure className="snip1579">
     //     <img
     //       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample74.jpg"
     //       alt="profile-sample2"

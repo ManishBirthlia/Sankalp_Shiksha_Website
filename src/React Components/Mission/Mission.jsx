@@ -14,9 +14,9 @@ function Mission() {
     <div className={Styles.Services} id="services">
       <h2 data-aos="zoom-in">Our Mission and Vision</h2>
       <div className={Styles.row}>
-        <div class={Styles.column} data-aos="zoom-in">
-          <div class={Styles.card}>
-            <div class={Styles.iconwrap}>
+        <div className={Styles.column} data-aos="zoom-in">
+          <div className={Styles.card}>
+            <div className={Styles.iconwrap}>
               <i>
                 <BiLibrary />
               </i>
@@ -29,9 +29,9 @@ function Mission() {
             </p>
           </div>
         </div>
-        <div class={Styles.column} data-aos="zoom-in">
-          <div class={Styles.card}>
-            <div class={Styles.iconwrap}>
+        <div className={Styles.column} data-aos="zoom-in">
+          <div className={Styles.card}>
+            <div className={Styles.iconwrap}>
               <i>
                 <FaSchool />
               </i>

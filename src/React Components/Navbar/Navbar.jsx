@@ -1,19 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
+
 function Navbar(prop) {
+  const [navShow,setNavShow]=useState(window.innerWidth<800?false:true);
+  function HandleClick(e){
+    if(window.innerWidth<800){
+      setNavShow(!navShow);
+    }
+  }
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark Navbar-main">
+    <nav className="navbar navbar-expand-lg navbar-dark Navbar-main">
       <div className="container-fluid mx-2">
-        <Link className="navbar-brand nb" to="/">
-          <img src="./Media logos/SANKALP SHIKSHA ICON.png" alt="" srcset="" />
+        <Link className="navbar-brand nb" to="/" >
+          <img src="./Media logos/SANKALP SHIKSHA ICON.png" alt="" srcSet="" />
           <div>
             SANKALP <br />
             <p>SHIKSHA</p>
           </div>
         </Link>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -21,13 +28,14 @@ function Navbar(prop) {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+        > */}
+        <button className="navbar-toggler" onClick={()=>setNavShow(!navShow)}>
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        {navShow? <div className="navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item mg">
-              <NavLink className="nav-link" aria-current="page" to="/">
+              <NavLink style={{width:"100px"}} className="nav-link mx-auto" aria-current="page" to="/" onClick={HandleClick}>
                 Home
               </NavLink>
             </li>
@@ -44,13 +52,13 @@ function Navbar(prop) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <li>
-                  <NavLink className="dropdown-item" to="/WhatWeDo">
+                  <NavLink style={{width:"min-content"}} className="dropdown-item mx-auto" to="/WhatWeDo" onClick={HandleClick}>
                     What we do
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="dropdown-item" to="/Team">
+                  <NavLink style={{width:"min-content"}} className="dropdown-item mx-auto" to="/Team" onClick={HandleClick}>
                     Our Team
                   </NavLink>
                 </li>
@@ -59,15 +67,16 @@ function Navbar(prop) {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/gallery">
+                  <NavLink style={{width:"min-content"}} className="dropdown-item mx-auto" to="/gallery" onClick={HandleClick}>
                     Gallery
                   </NavLink>
                 </li>
               </ul>
             </li>
             <li className="nav-item dropdown mg">
-              <a
-                className="nav-link" // dropdown-item
+              <a 
+                style={{width:"max-content"}}
+                className="nav-link mx-auto" // dropdown-item
                 href="#Initiative"
                 id="navbarDropdown2"
                 // role="button"
@@ -78,23 +87,23 @@ function Navbar(prop) {
               </a>
               {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <NavLink className="dropdown-item" href="/">
                     #
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <NavLink className="dropdown-item" href="/">
                     #
-                  </a>
+                  </NavLink>
                 </li>
               </ul> */}
             </li>
             <li className="nav-item dropdown mg">
-              <a
-                className="nav-link dropdown-toggle"
+              <a style={{width:"min-content"}}
+                className="nav-link dropdown-toggle mx-auto"
                 href="/"
                 id="navbarDropdown2"
                 role="button"
@@ -105,26 +114,26 @@ function Navbar(prop) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a style={{width:"min-content"}} className="dropdown-item mx-auto" href="/">
                     Reach Out
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a style={{width:"min-content"}} className="dropdown-item mx-auto" href="/">
                     Stories Of Change
                   </a>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/WhatWeDo">
+                  <NavLink style={{width:"min-content"}} className="dropdown-item mx-auto" to="/WhatWeDo" onClick={HandleClick}>
                     Awards and Recognitions
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a
-                    className="dropdown-item"
+                  <a style={{width:"min-content"}}
+                    className="dropdown-item mx-auto"
                     href="https://yourstory.com/hindi/social-work-with-job-meet-vikas-kumar-who-is-helping-poor-children-to-fulfill-their-dreams-education"
                   >
                     Blogs
@@ -134,15 +143,15 @@ function Navbar(prop) {
             </li>
 
             <li className="nav-item mg">
-              <NavLink className="nav-link" to="contact">
+              <NavLink style={{width:"max-content"}} className="nav-link mx-auto" to="/contact" onClick={HandleClick}>
                 Contact Us
               </NavLink>
             </li>
           </ul>
-          <button type="button" className="btn btn-warning btton">
+          <button type="button" className="btn btn-warning btton my-3 mx-3">
             Donate
           </button>
-        </div>
+        </div>:null}
       </div>
     </nav>
   );
