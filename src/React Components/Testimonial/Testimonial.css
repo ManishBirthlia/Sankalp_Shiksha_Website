@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+  font-family: "Roboto", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 0 10px;
+  color: #000000;
+  text-align: center;
+  height: 100%;
+  padding: 20px;
+  transition: 0.8s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.testsec {
+  box-shadow: -20px 9px 10px 20px rgba(0, 0, 0,); 
+}
+.testsec h1{
+  margin-bottom: 30px; 
+}
+.testsec h2 {
+  color: #00a7e7;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 100%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  font-size: 20px;
+}
+figure.snip1390 h4 {
+  color: #a6a6a6;
+  font-size: 16px;
+}
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 30px 20px 30px 20px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: left;
+}
+figure{
+  border-radius: 5px;
+  box-shadow: inset -0.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+}
+figure.snip1390 blockquote:before {
+  font-family: "FontAwesome";
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #a6a57a;
+}
+
+@media (max-width: 730px) {
+  figure.snip1390 blockquote:before {
+    font-size: 63px;
+    opacity: 0.25;
+    font-style: normal;
+    top: -11px;
+    left: 10px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 0.8rem;
+    padding: 32px 10px 30px 30px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testsec h2 {
+    font-size: 30px;
+  }
+}
