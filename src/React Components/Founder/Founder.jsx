@@ -1,19 +1,16 @@
 import React from "react";
 import "./Founder.css";
-import { Container } from "react-bootstrap";
 
 function Founder() {
   return (
-    <Container>
-    <div className="Founder">
-      <h1>Founder's Story</h1>
+    <div className="Founder container mx-auto">
       <div className="Fdisplay">
         <div className="Fimg">
           <img alt="" src="./Main_pics/1.jpg" className="img-responsive" />
         </div>
         <div className="FText">
-          <h2>Vikas Kumar</h2>
-          <h3>Founder</h3>
+          <h5>Founder's Story</h5>
+          <h2>Vikas Kumar <br/>Founder</h2>
           <p>
             Mr. Vikas Kumar, graduate of NIT Hamirpur pursuing electrical and
             communication engineering was inspired by the covid emergency to
@@ -29,7 +26,6 @@ function Founder() {
         </div>
       </div>
     </div>
-    </Container>
     // <>
     // <div className="Founder">
     // <h2>Our Founder's Story</h2>

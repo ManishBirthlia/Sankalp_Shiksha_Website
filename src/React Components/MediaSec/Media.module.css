@@ -1,33 +1,33 @@
-.GalleryStart {
-  background-color: #f7f7f7;
-  padding-top: 70px;
-}
-.Carouselmed {
-  margin-bottom: -15rem;
+.snip1390 {
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  transition: 0.8s ease;
+  box-sizing: border-box;
 }
 .GalleryStart h2 {
+  color: #00a7e7;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 25px;
+  margin-bottom: 30px;
   font-weight: 600;
   transition: 0.5s ease;
 }
 .mediaVideo {
   text-align: center;
-  padding: 0 3rem;
-  /* height: 400px; */
   display: flex;
 }
 .mediaVideo .video {
   width: 50%;
-  padding: 2rem;
 }
 .mediaVideo video {
   width: 100%;
   height: 90%;
 }
 .mediaVideo .Iframe {
-  padding: 2rem;
+  padding: 1rem;
   width: 50%;
 }
 iframe {
@@ -68,9 +68,6 @@ iframe {
   .galleryImg {
     width: 31%;
   }
-  .Carouselmed {
-    margin-bottom: -5rem;
-  }
   .mediaVideo {
     padding: 2rem 0;
     display: flex;
@@ -106,12 +103,6 @@ iframe {
   }
 }
 @media screen and (min-width: 992px) {
-  .GalleryStart h2 {
-    margin-bottom: 50px;
-  }
-  .GalleryStart {
-    padding: 140px 0;
-  }
   .mediaVideo {
     height: 500px;
   }

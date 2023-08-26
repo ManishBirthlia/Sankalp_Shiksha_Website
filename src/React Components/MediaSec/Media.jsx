@@ -39,19 +39,9 @@ function Navbar() {
     AOS.init({ duration: 10000 });
   }, []);
   return (
-    <div className={s.GalleryStart}>
+    <div className={`${s.GalleryStart} container`}>
       <h2>Media</h2>
-      {/* <hr /> */}
       <div className={s.mediaVideo}>
-        {/* <div className={`${s.video} text-center`}>
-          <video data-aos="zoom-in-up" className={s.vid} controls>
-            <source
-              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-              type="video/mp4"
-            ></source>
-          </video>
-          <h3>Title</h3>
-        </div> */}
         <div className={s.Iframe}>
           <iframe
             width="937"
@@ -80,69 +70,28 @@ function Navbar() {
         responsive={responsive}
         swipeable={true}
       >
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i1} className="img-responsive w-100 h-100" />
         </figure>
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i2} className="img-responsive w-100 h-100" />
         </figure>
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i3} className="img-responsive w-100 h-100" />
         </figure>
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i4} className="img-responsive w-100 h-100" />
         </figure>
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i5} className="img-responsive w-100 h-100" />
         </figure>
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i6} className="img-responsive w-100 h-100" />
         </figure>
-        <figure data-aos="fade-up" className="snip1390 ">
+        <figure data-aos="fade-up" className={s.snip1390}>
           <img alt="" src={i7} className="img-responsive w-100 h-100" />
         </figure>
       </Carousel>
-      {/* <div className="MainSection">
-        <div
-          id="carouselExampleCaptions"
-          className="carousel slide carousel-custom"
-          data-bs-ride="carousel"
-          data-bs-touch="true"
-          data-bs-interval="5000"
-          data-bs-pause="hover"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img alt="" src={i1} className="img-responsive w-100 h-100" />
-            </div>
-            <div className="carousel-item">
-              <img alt="" src={i1} className="img-responsive w-100 h-100" />
-            </div>
-            <div className="carousel-item">
-              <img alt="" src={i1} className="img-responsive w-100 h-100" />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div> */}
-
       <div id="myModal" className="modal fade" role="dialog">
         <div className="modal-dialog">
           <div className="modal-content">
@@ -150,6 +99,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+      <hr/>
     </div>
   );
 }

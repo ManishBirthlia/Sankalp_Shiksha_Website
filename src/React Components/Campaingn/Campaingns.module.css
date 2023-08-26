@@ -1,5 +1,5 @@
 .Campaingns {
-  background-color: #f5fefd;
+  background-color: #ffffff;
   text-align: center;
   padding: 3rem 1rem;
 }
@@ -7,10 +7,9 @@
   margin: 3rem auto;
   padding: 2.5rem;
 }
-section.card {
-  background: #638ef4;
-  color: white;
-  border-radius: 24px 24px 24px 48px;
+section.card { 
+  color: #5a5e66;
+  /* border-rgb(92, 78, 78)s: 24px 24px 24px 48px; */
   padding: 48px 48px 48px 308px;
   margin: 84px 0;
   width: 60vw;
@@ -67,9 +66,13 @@ section.card .visual img {
   width: 100%;
 }
 section.card:nth-of-type(odd) {
-  margin: 0 0 0 248px;
+  margin: 50px 0 50px auto;
   border-radius: 24px 24px 48px 24px;
   padding: 48px 308px 48px 60px;
+}
+section.card:nth-of-type(even) {
+  margin: 50px auto 50px 0;
+  border-radius: 24px 24px 48px 24px;
 }
 section.card:nth-of-type(odd) .visual {
   right: 24px;

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Oswald:wght@200;500&family=Tilt+Prism&display=swap');
+.Main_top_Effect {
+  background-color: #282A29;
+  height: 768px;
+  color: aliceblue !important;
+}
+.Main_image{
+  width: 100%;
+  height:887px;
+  /* top: 110; */
+  filter: grayscale();
+}
+.mainh1{
+  font-size: 50px;
+  color: #FED049;
+  font-family: 'Tilt Prism', cursive;
+}
+.mainh2{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.mainh2>span{
+  font-family: 'Montserrat', sans-serif;
+  color:#FED049 ;
+}
+.mainp{
+  margin:"30px 0 30px 0";
+  width: 551px;
+}
+.position_absolute {
+  position: absolute;
+  z-index: 1000;
+  /* filter: drop-shadow(2px 4px 6px black); */
+}
+.Main_top_Effect >div >.position_absolute{ 
+  top: 470px;
+}
+.main_car div img {
+  filter: brightness(0.5);
+}
+.btn_same {
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  border-width: 2px;
+  backdrop-filter: blur(1px);
+  /* background-color: rgb(34, 91, 237); */
+  color: white;
+}
+.bttn {
+  padding: 0.8rem 3rem;
+  font-size: 1.2rem;
+}
+.nb {
+  text-align: center;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+.nb p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+}
+@media screen and (max-width: 1450px) {
+  /* .position_absolute p {
+    margin: auto;
+    width: 71%;
+    font-size: 1rem;
+  } */
+  /* .position_absolute h1 {
+    font-size: 2rem;
+  } */
+}
+@media screen and (max-width: 1250px) {
+  .btn_same {
+    width: 11rem;
+  }
+
+  .nb {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .nb p {
+    font-size: 0.8rem;
+  }
+  .mg {
+    margin: auto 1vw;
+    font-size: 0.81rem;
+  }
+  .bttn {
+    padding: 1vw 1vw;
+  }
+}
+@media screen and (max-width: 695px) {
+  .btn_same {
+    font-size: 1rem;
+    margin:10px 10px 10px 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carousel-inner {
+    height: 90vh;
+  }
+  .mainp{
+    margin:"10px 0 10px 0";
+    width: 351px;
+  }
+}
+@media screen and (max-width: 500px){
+  .Main_top_Effect {
+    height: 500px;
+  }
+  .Main_top_Effect >div >.position_absolute{ 
+    top: 255px;
+  }
+  .Main_image{
+    height:582px;
+  }
+  .mainh2{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .btn_same {
+    padding: 6px !important;
+    font-size: 13px;
+    margin:10px 10px 10px 0 !important;
+  }
+}

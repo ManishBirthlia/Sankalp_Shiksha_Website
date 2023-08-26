@@ -33,8 +33,9 @@ function Testimonial() {
     AOS.init({ duration: 6000 });
   }, []);
   return (
-    <div className="testsec">
+    <div className="testsec container">
       <h2 data-aos="zoom-in">Testimonials</h2>
+      <h1 className="text-center">What They Say</h1>
       <Carousel responsive={responsive} swipeable={true}>
         <figure data-aos="fade-up" className="snip1390">
           <img src={praveen} alt="profile-sample5" className="profile" />

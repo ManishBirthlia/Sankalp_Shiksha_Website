@@ -5,12 +5,13 @@ import Mission from "../React Components/Mission/Mission";
 import Media from "../React Components/MediaSec/Media";
 import Testimonial from "../React Components/Testimonial/Testimonial";
 import Supporters from "../React Components/Support/Support";
+import Reach from "../React Components/Reach/Reach.jsx";
 
 function Home() {
   return (
     <div id="/">
       <Mainsection />
-      <Mission />
+      <Reach />
       <Initiative />
       <Media />
       <Testimonial />

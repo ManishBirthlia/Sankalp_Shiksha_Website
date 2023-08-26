@@ -7,8 +7,9 @@ function Support() {
     AOS.init({ duration: 6000 });
   }, []);
   return (
-    <div id="Supportes" className={s.center}>
-      <h1 data-aos="fade-left">Our Supporters</h1>
+    <div id="Supportes" className={`${s.center} container`}>
+      <h2 data-aos="fade-left">Our Supporters</h2>
+      <hr/>
       <div className={s.loopSlider}>
         <div className={s.loopSlideTrack}>
           <div className={s.loopSlide}>

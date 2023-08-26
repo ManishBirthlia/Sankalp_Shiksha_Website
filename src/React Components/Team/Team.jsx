@@ -1,34 +1,20 @@
 import React from "react";
 import T from "./TeamSample";
-import ExTeam from "./ExTeam";
+// import ExTeam from "./ExTeam";
 import "./team.css";
+import Manish from "./Manish.jpg";
+import Sunil from "./Sunil.jpg";
+import Sidhant from "./Sidhant.jpg";
 import vikas from "./Screenshot (119).png";
 import ansari from "./Screenshot (118).png";
 import sourabh from "./Screenshot (120).png";
 import abhishek from "./Screenshot (121).png";
 import aakash from "./Screenshot (122).png";
 import satyam from "./Screenshot (123).png";
-import Carousel from "react-multi-carousel";
 import Amit from "./executive/Amit Jaiswal.jpg";
 import Anshu from "./executive/Anshu Yadav.jpg";
 import Ranjan from "./executive/Ranjan Kumar.jpg";
 import Simran from "./executive/Simran Patel.png";
-// import Nikita from "./executive/Screenshot (124).png";
-// import Pesaru from "./executive/Screenshot (125).png";
-// import firsdaus from "./executive/Screenshot (126).png";
-// import jas from "./executive/Screenshot (127).png";
-// import ani from "./executive/Screenshot (128).png";
-// import parvi from "./executive/Screenshot (129).png";
-// import Harsha from "./executive/Screenshot (130).png";
-// import vandi from "./executive/Screenshot (131).png";
-// import tiwari from "./executive/Screenshot (132).png";
-// import vicky from "./executive/Screenshot (133).png";
-// import praveen from "./executive/Screenshot (134).png";
-// import dev from "./executive/Screenshot (135).png";
-// import kriti from "./executive/Screenshot (136).png";
-// import shashank from "./executive/Screenshot (137).png";
-// import varun from "./executive/Screenshot (138).png";
-// import Mayur from "./executive/Screenshot (139).png";
 import aditya from "./mentors/Screenshot (151).png";
 import kaushar from "./mentors/Screenshot (164).png";
 import rao from "./mentors/Screenshot (165).png";
@@ -49,7 +35,6 @@ import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5,
   },
@@ -72,111 +57,83 @@ const responsive = {
 function Team() {
   return (
     <div className="container Team" style={{ textAlign: "center" }}>
-      <h1>Our Founders</h1>
+      <h1>Our Team</h1>
+      <h3>Core Team</h3>
       <div className="row">
-        <T
-          photo={sourabh}
+        <T photo={sourabh}
           name="Saurabh kumar sharma"
           title="CEO, GSVM medical college Kanpur"
         />
         <T photo={vikas} name="Vikas kumar" title="CEO, NIT hamirpur" />
-        <T
-          photo={ansari}
+        <T photo={ansari}
           name="Allaudin ansari"
           title="Director, (BRD medical college, gorakhpur)"
         />
-        <T
-          photo={abhishek}
+        <T photo={abhishek}
           name="Abhishek kumar "
           title="Communication head, NIT "
         />
-        <T
-          photo={aakash}
+        <T photo={aakash}
           name="Aakash kumar "
           title="Research head, NIT hamirpur"
         />
-        <T
-          photo={satyam}
+        <T photo={satyam}
           name="Satyam tripathi"
           title="Media Co-Ordinator, NIT hamirpur"
         />
       </div>
-      <h1>Executive Members</h1>
-      {/* <h1>Volunteers</h1> */}
+      
+      <h3>Executive Members</h3>
       <div className="row">
-        <Carousel className="row" responsive={responsive}>
-          <ExTeam
-            photo={Amit}
-            name="Amit Jaiswal"
-            title="project assistant Sankalp Shiksha"
-          />
-          <ExTeam
-            photo={Simran}
-            name="Simran Patel"
-            title="Project coordinator Sankalp Shiksha"
-          />
-          <ExTeam
-            photo={Anshu}
+        <T photo={Amit}
+          name="Amit Jaiswal"
+          title="project assistant Sankalp Shiksha"
+        />
+        <T photo={Simran} name="Simran Patel" title="project assistant Sankalp Shiksha" />
+        <T photo={Anshu}
             name="Anshu Yadav"
             title="project assistant Sankalp Shiksha"
-          />
-          <ExTeam
-            photo={Ranjan}
+        />
+        <T photo={Ranjan}
             name="Ranjan Kumar"
             title="project assistant Sankalp Shiksha"
-          />
-        </Carousel>
+        />
       </div>
-      <h1>Mentors</h1>
+      <h3>Mentors</h3>
       <div className="row">
-        <Carousel className="row" responsive={responsive}>
-          <ExTeam photo={aditya} name="Aditya Kumar" title="SDE-Facebook" />
-          <ExTeam photo={kaushar} name="Sahil kaushar" title="Director NCF" />
-          <ExTeam photo={rao} name="Sumit Rao" title="SDE-Samsung" />
-
-          <ExTeam
-            photo={singh}
+        <T photo={aditya} name="Aditya Kumar" title="SDE-Facebook" />
+        <T photo={kaushar} name="Sahil kaushar" title="Director NCF" />
+        <T photo={rao} name="Sumit Rao" title="SDE-Samsung" />
+        <T photo={singh}
             name="Surjeet Singh"
-            title="SDO-Electricity Dept."
-          />
-          <ExTeam
-            photo={mahajan}
+            title="SDO-Electricity Dept." />
+        <T photo={mahajan}
             name="Siddarth Mahajan"
-            title="Er.-Maruti Suzuki"
-          />
-          <ExTeam
-            photo={kumar}
+            title="Er.-Maruti Suzuki" />
+        <T photo={kumar}
             name="Abhishek Kumar "
-            title="PHD,IIT Kharagpur"
-          />
-          <ExTeam
-            photo={bhusan}
+            title="PHD,IIT Kharagpur" />
+        <T photo={bhusan}
             name="Shashi Bhusan"
-            title="Gate AIR-7,PHD-IITM"
-          />
-          <ExTeam photo={swati} name="Swati" title="SDE-Samsung" />
-          <ExTeam
-            photo={mukund}
+            title="Gate AIR-7,PHD-IITM" />
+        <T photo={swati} name="Swati" title="SDE-Samsung" />
+        <T photo={mukund}
             name="Mukund Agarwal"
-            title="SDE-Urban Company"
-          />
-          <ExTeam photo={bissa} name="Priyanka Bissa" title="Social Activist" />
-          <ExTeam photo={ujjawal} name="Ujjawal Gupta" title="SDE-Samsung*" />
-          <ExTeam photo={banyal} name="Vinumar Banyal" title="NIT-Hamirpur" />
-          <ExTeam photo={vivek} name="Vivek Singh" title="Social Activist" />
-          <ExTeam photo={ishita} name="Ishita Bhatia" />
-          <ExTeam photo={ashok} name="Ashok Gupta" />
-          <ExTeam photo={dolly} name="Dolly Razora" title=" " />
-        </Carousel>
+            title="SDE-Urban Company" />
+        <T photo={bissa} name="Priyanka Bissa" title="Social Activist" />
+        <T photo={ujjawal} name="Ujjawal Gupta" title="SDE-Samsung*" />
+        <T photo={banyal} name="Vinumar Banyal" title="NIT-Hamirpur" />
+        <T photo={vivek} name="Vivek Singh" title="Social Activist" />
+        <T photo={ishita} name="Ishita Bhatia" />
+        <T photo={ashok} name="Ashok Gupta" />
+        <T photo={dolly} name="Dolly Razora" title=" " />
       </div>
-      <h1>Intern Team</h1>
+      <h3>Intern Team</h3>
       <div className="row">
-        <Carousel className="row" responsive={responsive}>
-          <ExTeam name="Manish Birthlia" title="Team Leader & Web Developer, NIT hamirpur" />
-          <ExTeam name="Sidhant Sadyal" title="Web Developer, NIT hamirpur" />
-          <ExTeam name="Sunil Goyal" title="Video Editor & Web Developer" />
-          <ExTeam name="Sourabh Awasthy" title="Web Developer, NIT hamirpur" />
-        </Carousel>
+          <T photo={Manish} name="Manish Birthlia" title="Team Leader & Web Developer, NIT hamirpur" />
+          <T photo={Sunil} name="Sunil Goyal" title="Video Editor & Web Developer" />
+          <T photo={Sidhant} name="Sidhant Sadyal" title="Web Developer, NIT hamirpur" />
+          <T name="Sourabh Awasthy" title="Web Developer, NIT hamirpur" />
       </div>
     </div>
   );

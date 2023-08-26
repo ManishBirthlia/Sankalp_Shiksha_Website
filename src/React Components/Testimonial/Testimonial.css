@@ -4,12 +4,11 @@ figure.snip1390 {
   font-family: "Roboto", Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 1.5rem;
-  min-width: 31vw;
+  margin: 0 10px;
   color: #000000;
   text-align: center;
   height: 100%;
-  padding: 30px;
+  padding: 20px;
   transition: 0.8s ease;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -20,15 +19,18 @@ figure.snip1390 {
   overflow-x: scroll;
 }
 .testsec {
-  box-shadow: -20px 9px 10px 20px rgba(0, 0, 0,);
-  background-color: #191c29;
-  padding: 70px 0;
+  box-shadow: -20px 9px 10px 20px rgba(0, 0, 0,); 
+}
+.testsec h1{
+  margin-bottom: 30px; 
 }
 .testsec h2 {
-  color: white;
+  color: #00a7e7;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  margin-top: 50px;
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 25px;
   font-weight: 600;
   transition: 0.5s ease;
 }
@@ -53,20 +55,23 @@ figure.snip1390 h4 {
   font-weight: 300;
 }
 figure.snip1390 h2 {
-  color: #ffffff;
+  font-size: 20px;
 }
 figure.snip1390 h4 {
   color: #a6a6a6;
+  font-size: 16px;
 }
 figure.snip1390 blockquote {
   font-size: 1em;
-  padding: 45px 20px 40px 50px;
+  padding: 30px 20px 30px 20px;
   margin-top: 10px;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
   text-align: left;
-  position: relative;
+}
+figure{
+  border-radius: 5px;
+  box-shadow: inset -0.4px -1.4px 2px rgba(0, 0, 0, 0.3);
 }
 figure.snip1390 blockquote:before {
   font-family: "FontAwesome";
@@ -99,14 +104,6 @@ figure.snip1390 .profile {
     font-size: 0.8rem;
     padding: 32px 10px 30px 30px;
     margin-top: 10px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .testsec h2 {
-    margin-bottom: 50px;
-  }
-  .testsec {
-    padding: 140px 0;
   }
 }
 @media screen and (max-width: 500px) {

@@ -1,0 +1,39 @@
+.Reach >h3{
+    color: #00a7e7;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.Reach{
+    padding: 50px 0 30px;
+}
+.Reach >div{
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Reachtext >div{
+    height: fit-content;
+}
+.Reachtext h3,.Reachtext h2{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.Reachtext h3{
+    color: #00a7e7;
+    font-size: 24px;
+}
+.Reachtext{
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px 1px black;
+    text-align: center;
+    margin: 10px 15px;
+    height: 100px;
+    width: 200px;
+}

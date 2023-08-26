@@ -1,30 +1,26 @@
-* {
-  padding: 0;
-  margin: 0;
-  letter-spacing: 1px;
-  box-sizing: border-box;
-}
 .initiative {
-  background-color: #191c29;
+  background-color: #ffffff;
   padding: 70px 0;
 }
 .initiative h2 {
-  color: white;
+  color: #00a7e7;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 25px;
+  margin-bottom: 30px;
   font-weight: 600;
   transition: 0.5s ease;
 }
 
 .Services {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   padding: 70px 0;
 }
 .Services h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 600;
   transition: 0.5s ease;
 }
@@ -45,7 +41,7 @@
   width: 100%;
   height: 100%;
   padding: 2em 1.5em;
-  background: linear-gradient(#638ef4 50%, rgb(51, 113, 237) 50%);
+  background: linear-gradient(#ffffff 50%, rgb(231, 231, 231) 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
@@ -56,18 +52,20 @@
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
-  color: white;
-  margin-bottom: 0.5rem;
+  color: #5a5e66;
+  margin-bottom: 30px;
 }
 .card h5 {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 300;
-  color: rgba(0,0,0,.75);
-  margin-bottom: 1rem;
+  color: #00a7e7;
+  text-align: left;
+  margin-bottom: 10px;
 }
 .card p {
-  color: white;
+  color: #6F747E;
+  text-align: left;
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -90,33 +88,24 @@
 }
 .card:hover .iconwrap {
   background-color: #ffffff;
-  color: rgb(51, 113, 237);
+  /* color: rgb(51, 113, 237); */
 }
 .card:hover h3 {
-  color: #ffffff;
+  color: #0c0b0b;
 }
 .card:hover p {
-  color: #f0f0f0;
+  color: #000000;
 }
 @media screen and (min-width: 768px) {
-  section {
+  /* section {
     padding: 0 2em;
-  }
+  } */
   .column {
     flex: 0 50%;
     max-width: 50%;
   }
 }
 @media screen and (min-width: 992px) {
-  .initiative h2 {
-    margin-bottom: 50px;
-  }
-  .initiative {
-    padding: 140px 0;
-  }
-  section {
-    padding: 1em 3em;
-  }
   .column {
     flex: 0 0 33.33%;
     max-width: 29.33%;
