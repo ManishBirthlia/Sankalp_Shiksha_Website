@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+*{
+  scroll-behavior: smooth;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#Initiative,.signup>*,.login>*{
+  font-family: 'Montserrat', sans-serif !important;
+}
