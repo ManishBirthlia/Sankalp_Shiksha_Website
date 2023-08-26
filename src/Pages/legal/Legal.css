@@ -1,0 +1,32 @@
+.legal .heading {
+	text-align: center;
+	color: black;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.legal .heading h1{
+	font-weight: 800;
+	font-size: 30px;
+}
+.legal p {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: rgba(43, 41, 41, 0.842);
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: .5px;
+}
+.legal b{
+	color: black;
+}
+.legal h4 {
+	margin-bottom: 20px;
+	font-weight: 800;
+	color: cornflowerblue;
+}
+
+
+.points{
+	padding: 1pc;
+	margin: 1pc;
+	font-family: 'Open Sans', sans-serif;
+}
