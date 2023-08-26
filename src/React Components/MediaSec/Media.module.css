@@ -1,0 +1,114 @@
+.snip1390 {
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  transition: 0.8s ease;
+  box-sizing: border-box;
+}
+.GalleryStart h2 {
+  color: #00a7e7;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.mediaVideo {
+  text-align: center;
+  display: flex;
+}
+.mediaVideo .video {
+  width: 50%;
+}
+.mediaVideo video {
+  width: 100%;
+  height: 90%;
+}
+.mediaVideo .Iframe {
+  padding: 1rem;
+  width: 50%;
+}
+iframe {
+  width: 100%;
+  height: 90%;
+}
+#gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+#gallery div:hover {
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.galleryImg {
+  width: 23%;
+  height: 400px;
+  margin: 1%;
+  box-shadow: -3px 5px 15px #000;
+  cursor: pointer;
+  transition: all 1s;
+}
+.modal-img,
+.model-vid {
+  width: 100%;
+  height: auto;
+}
+.modal-body {
+  padding: 0px;
+}
+@media screen and (max-width: 1025px) {
+  .galleryImg {
+    width: 31%;
+  }
+  .mediaVideo {
+    padding: 2rem 0;
+    display: flex;
+  }
+  .mediaVideo .video {
+    padding: 1rem;
+  }
+  .mediaVideo .Iframe {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .galleryImg {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .galleryImg {
+    height: 250px;
+  }
+  .mediaVideo {
+    flex-direction: column;
+  }
+  .mediaVideo .video {
+    width: 100%;
+    padding: 1rem;
+  }
+  .Iframe {
+    height: 270px;
+  }
+  .mediaVideo .Iframe {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mediaVideo {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .GalleryStart h2 {
+    font-size: 30px;
+  }
+}

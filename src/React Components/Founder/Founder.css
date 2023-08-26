@@ -1,0 +1,50 @@
+.Founder {
+  text-align: center;
+  margin: 70px 0;
+}
+.Fdisplay {
+  overflow: hidden;
+  color: rgb(96, 85, 85);
+  /* box-shadow: 5px 0 0 0 rgba(204, 204, 204, 0.3),
+    -5px 0 0 0 rgba(204, 204, 204, 0.3), 0 5px 0 0 rgba(204, 204, 204, 0.3); */
+  border-radius: 2%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.FText {
+  padding: 3%;
+}
+.FText > h5{
+  text-transform: uppercase;
+  color: #00a7e7;
+}
+.FText > h2{
+  color: #000000;
+}
+.FText,
+.Fimg {
+  width: 50%;
+  text-align: left;
+}
+.Fimg {
+  height: 300px;
+  margin-top: auto;
+}
+.Fimg img {
+  width:100%;
+}
+@media screen and (max-width: 840px) {
+  .FText,
+  .Fimg {
+    width: 100%;
+  }
+  .Fdisplay {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .FText {
+    font-size: smaller;
+  }
+}
